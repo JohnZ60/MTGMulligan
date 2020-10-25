@@ -12,6 +12,18 @@ What does the program do?
 """
 import random
 
+"""
+Card template
+class cardName(object):
+    def __init__(self):
+        self.name = "cardName"
+        self.cmc = "costToCast(example 3R is 3 colorless and 1 red)"
+        self.power = power
+        self.toughness = toughness
+        self.rulesText = "CopyOfRulesText"
+
+
+"""
 class Battlefield():
     
     
