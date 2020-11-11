@@ -97,7 +97,7 @@ class Deck(object):
         for card in self.cards:
             print (card.show())
 
-    # Generate 52 cards
+    # Generate 60 cards in the deck
     def build(self):
         #self.cards = [] don't think I need this here
         self.cards.append(Card('Fervent Champion', 1, 1, "R" , 1, 1, 'First strike, haste \nWhenever Fervent Champion attacks, another target attacking Knight you control gets +1/+0 until end of turn. \nEquip abilities you activate that target Fervent Champion cost 3 less to activate.\n', False))
@@ -185,16 +185,23 @@ class Player(object):
 
 # Test making a Card
 card = Land('Mountain', 1, 'R', "Tap for 1 red mana", False)
-print(card)
+#print(card)
 
 # Test making a Deck
 myDeck = Deck()
+myDeck.show()
 myDeck.shuffle()
-# deck.show()
+
 
 PlayerOne = Player("One", myDeck)
 
 PlayerOne.sayLife()
 PlayerOne.draw(myDeck, 7)
 PlayerOne.showHand()
+
+PlayerTwo = Player("Two", myDeck)
+
+PlayerTwo.sayLife()
+PlayerTwo.draw(myDeck, 7)
+PlayerTwo.showHand()
 
