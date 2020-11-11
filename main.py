@@ -11,9 +11,13 @@ What does the program do?
 @author: Alexander Mains
 """
 import random
+#imported models
+from numpy import loadtxt
+from keras.models import Sequential
+from keras.layers import Dense
+
 
 """
-Card template
 class cardName(object):
     def __init__(self):
         self.name = "cardName"
@@ -21,25 +25,25 @@ class cardName(object):
         self.power = power
         self.toughness = toughness
         self.rulesText = "CopyOfRulesText"
-
-
 """
-class Battlefield():
+
+#class Battlefield():
+    def__init__(self):
+        
     
-    
-class Land():
+#class Land():
 
 class Card(object):
-    def __init__(self, card):
-        self.name = card.name
-        self.value = card.value
+    def __init__(self, name, value):
+        self.name = name
+        self.value = value
         
 
     # Implementing build in methods so that you can print a card object
     def __unicode__(self):
         return self.show()
     def __str__(self):
-        return self.show()
+        return str(self.name)
     def __repr__(self):
         return self.show()
         
@@ -110,10 +114,27 @@ class Player(object):
 
     def discard(self):
         return self.hand.pop()
+    
+    
+    
+
+
+
+
+# Testing the model
+model = Sequential()
+model.add(Dense(12, input_dim=8, activation='relu'))
+model.add(Dense(8, activation='relu'))
+model.add(Dense(1, activation='sigmoid'))
+
+#The x needs to be the array of inputs whilst Y needs to be array of outputs
+#x = []
+#y = []
+#model.fit(x, y, epochs =50; batch_size=10)
 
 # Test making a Card
-# card = Card('Spades', 6)
-# print card
+card = Card('Spades', 6)
+print(card)
 
 # Test making a Deck
 myDeck = Deck()
