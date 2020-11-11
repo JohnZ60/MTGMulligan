@@ -34,24 +34,29 @@ class Battlefield(object):
         self.landsOne = [] #Lands for player one
         self.landsTwo = [] #Lands for player two (UNUSED BUT HERE FOR CLARITY)
         self.turn = 1  #turn counter
+        self.exileOne = [] #Player One's exile
+        self.exileTwo = [] #Player Two's exile
         
         
 class Land():
-    def __init__(self, name, value, rulesText, sickness):
-        self.name = name
-        self.value = value
+    def __init__(self, name, value, color, rulesText, sickness):
+        self.name = name #name of the land
+        self.value = value #value of the card for testing
+        self.color = color #color the land taps for
         self.rulesText = rulesText #What does the card do, For debugging and laziness
-        self.sickness = sickness #If the rules text doesn't have Haste, put false
-        self.tap = False
+        self.sickness = sickness #If the rules text doesn't have Haste/or if it comes in tapped, put false
+        self.tap = False #is the land tapped?
     
 class Card(object):
-    def __init__(self, name, value, cmc, power, toughness, rulesText, sickness):
+    def __init__(self, name, value, cmc, cost, power, toughness, rulesText, sickness):
         self.name = name
-        self.cmc = cmc
-        self.power = power
-        self.toughness = toughness
-        self.rulesText = rulesText
+        self.cmc = cmc #total mana number to cast the spell
+        self.cost = cost #Actual cost to cast the spell, with color
+        self.power = power #How much damage can it do? (If 0, it's a noncreature for our cases)
+        self.toughness = toughness #How much damage can this thing take (if 0, it's a noncreature)
+        self.rulesText = rulesText #What does the card do, for debugging and laziness
         self.sickness = sickness #If the rules text has Haste, put false
+        self.tap = False #Is the thing tapped
         
         
         
@@ -83,16 +88,16 @@ class Deck(object):
     def build(self):
         #self.cards = [] don't think I need this here
         for i in ['Hearts', 'Clubs', 'Diamonds']: #count to 3
-            self.cards.append(Card('Fervent Champion', 1, "R" , 1, 1, 'First strike, haste \nWhenever Fervent Champion attacks, another target attacking Knight you control gets +1/+0 until end of turn. \nEquip abilities you activate that target Fervent Champion cost 3 less to activate.\n', False))
-            self.cards.append(Card('Scorch Spitter', 1, "R", 1, 1, 'Whenever Scorch Spitter attacks, it deals 1 damage to the player or planeswalker it\'s attacking.', True))
-            self.cards.append(Card('Rimrock Knight', 2, "1R", 3, 1, 'R : Target Creature gets +2/+0 until end of turn,\n Rimrock Knight can\'t block.', True))
-            self.cards.append(Card('Robber of the Rich', 3, '1R', 2, 2, 'Reach, haste\nWhenever Robber of the Rich attacks, if defending player has more cards in hand than you, exile the top card of their library. \nDuring any turn you attacked with a Rogue, you may cast that card and you may spend mana as though it were mana of any color to cast that spell.', False))
-            self.cards.append(Card('Runaway Steam-Kin', 3, '1R', 1, 1, rulesText, True))
-            self.cards.append(Card('Anax, Hardened in the Forge', 3, '1RR', 0, 3, rulesText, True))
-            self.cards.append(Card('Bonecrusher Giant', 4, '2R', 4, 3, rulesText, True))
-            self.cards.append(Card('Torbran, Thane of Red Fell', 5, '1RRR', 2, 4, rulesText, True))
-            self.cards.append(Card('Claim the Firstborn', 1, 'R', 2, 2, rulesText, False))
-            self.cards.append(Card('Embercleave', 6, '4RR', 0, 0, rulesText, False))
+            self.cards.append(Card('Fervent Champion', 1, 1, "R" , 1, 1, 'First strike, haste \nWhenever Fervent Champion attacks, another target attacking Knight you control gets +1/+0 until end of turn. \nEquip abilities you activate that target Fervent Champion cost 3 less to activate.\n', False))
+            self.cards.append(Card('Scorch Spitter', 1, 1, "R", 1, 1, 'Whenever Scorch Spitter attacks, it deals 1 damage to the player or planeswalker it\'s attacking.', True))
+            self.cards.append(Card('Rimrock Knight', 2, 2, "1R", 3, 1, 'R : Target Creature gets +2/+0 until end of turn,\n Rimrock Knight can\'t block.', True))
+            self.cards.append(Card('Robber of the Rich', 3, 2, '1R', 2, 2, 'Reach, haste\nWhenever Robber of the Rich attacks, if defending player has more cards in hand than you, exile the top card of their library. \nDuring any turn you attacked with a Rogue, you may cast that card and you may spend mana as though it were mana of any color to cast that spell.', False))
+            self.cards.append(Card('Runaway Steam-Kin', 3, 2, '1R', 1, 1, "Whenever you cast a red spell, if Runaway Steam-Kin has fewer than three +1/+1 counters on it, put a +1/+1 counter on Runaway Steam-Kin.\nRemove three +1/+1 counters from Runaway Steam-Kin: Add .", True))
+            self.cards.append(Card('Anax, Hardened in the Forge', 3, 3, '1RR', 0, 3, "Anax's power is equal to your devotion to red. (Each  in the mana costs of permanents you control counts toward your devotion to red.)Whenever Anax or another nontoken creature you control dies, create a 1/1 red Satyr creature token with 'This creature can't block.' If the creature had power 4 or greater, create two of those tokens instead.", True))
+            self.cards.append(Card('Bonecrusher Giant', 4, 3, '2R', 4, 3, "Stomp 1R: Instant - Adventure: Damage can't be prevented this turn. Stomp deals 2 damage to any target/Whenever Bonecrusher Giant becomes the target of a spell, Bonecrusher Giant deals 2 damage to that spell's controller.", True))
+            self.cards.append(Card('Torbran, Thane of Red Fell', 5, 4, '1RRR', 2, 4, "If a red source you control would deal damage to an opponent or a permanent an opponent controls, it deals that much damage plus 2 instead.", True))
+            self.cards.append(Card('Claim the Firstborn', 1, 1, 'R', 2, 2, "Gain control of target creature with converted mana cost 3 or less until end of turn. Untap that creature. It gains haste until end of turn.", False))
+            self.cards.append(Card('Embercleave', 6, 6, '4RR', 0, 0, "Flash\nThis spell costs 1 less to cast for each attacking creature you control.\nWhen Embercleave enters the battlefield, attach it to target creature you control.\nEquipped creature gets +1/+1 and has double strike and trample.\nEquip 3 ", False))
             self.cards.append(Land('Castle Embereth', 1, 'R', "Castle Embereth enters the battlefield tapped unless you control a Mountain.Tap: Add R,  1RRTAP: Creatures you control get +1/+0 until end of turn.", True))
             self.cards.append(Land('Mountain', 1, 'R', "Tap for 1 red mana", False))
             
