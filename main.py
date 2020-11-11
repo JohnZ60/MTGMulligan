@@ -13,8 +13,7 @@ What does the program do?
 import random
 #imported models
 from numpy import loadtxt
-from keras.models import Sequential
-from keras.layers import Dense
+
 
 
 """
@@ -36,7 +35,8 @@ class Battlefield(object):
         self.turn = 1  #turn counter
         self.exileOne = [] #Player One's exile
         self.exileTwo = [] #Player Two's exile
-        
+        self.graveyardOne = [] #Player One Graveyard
+        self.graveyardTwo = [] #Player Two graveyard
         
 class Land():
     def __init__(self, name, value, color, rulesText, sickness):
@@ -46,6 +46,19 @@ class Land():
         self.rulesText = rulesText #What does the card do, For debugging and laziness
         self.sickness = sickness #If the rules text doesn't have Haste/or if it comes in tapped, put false
         self.tap = False #is the land tapped?
+    
+        # Implementing build in methods so that you can print a card object
+    def __unicode__(self):
+        return self.show()
+    def __str__(self):
+        return str(self.name)
+    def __repr__(self):
+        return self.show()
+        
+    def show(self):
+
+        return self
+    
     
 class Card(object):
     def __init__(self, name, value, cmc, cost, power, toughness, rulesText, sickness):
@@ -61,7 +74,7 @@ class Card(object):
         
         
 
-    # Implementing build in methods so that you can print a card object
+    # Implementing built in methods so that you can print a card object
     def __unicode__(self):
         return self.show()
     def __str__(self):
@@ -87,6 +100,17 @@ class Deck(object):
     # Generate 52 cards
     def build(self):
         #self.cards = [] don't think I need this here
+        self.cards.append(Card('Fervent Champion', 1, 1, "R" , 1, 1, 'First strike, haste \nWhenever Fervent Champion attacks, another target attacking Knight you control gets +1/+0 until end of turn. \nEquip abilities you activate that target Fervent Champion cost 3 less to activate.\n', False))
+        self.cards.append(Card('Scorch Spitter', 1, 1, "R", 1, 1, 'Whenever Scorch Spitter attacks, it deals 1 damage to the player or planeswalker it\'s attacking.', True))
+        self.cards.append(Card('Robber of the Rich', 3, 2, '1R', 2, 2, 'Reach, haste\nWhenever Robber of the Rich attacks, if defending player has more cards in hand than you, exile the top card of their library. \nDuring any turn you attacked with a Rogue, you may cast that card and you may spend mana as though it were mana of any color to cast that spell.', False))
+        self.cards.append(Card('Runaway Steam-Kin', 3, 2, '1R', 1, 1, "Whenever you cast a red spell, if Runaway Steam-Kin has fewer than three +1/+1 counters on it, put a +1/+1 counter on Runaway Steam-Kin.\nRemove three +1/+1 counters from Runaway Steam-Kin: Add .", True))
+        self.cards.append(Card('Anax, Hardened in the Forge', 3, 3, '1RR', 0, 3, "Anax's power is equal to your devotion to red. (Each  in the mana costs of permanents you control counts toward your devotion to red.)Whenever Anax or another nontoken creature you control dies, create a 1/1 red Satyr creature token with 'This creature can't block.' If the creature had power 4 or greater, create two of those tokens instead.", True))
+        self.cards.append(Card('Bonecrusher Giant', 4, 3, '2R', 4, 3, "Stomp 1R: Instant - Adventure: Damage can't be prevented this turn. Stomp deals 2 damage to any target/Whenever Bonecrusher Giant becomes the target of a spell, Bonecrusher Giant deals 2 damage to that spell's controller.", True))
+        self.cards.append(Card('Torbran, Thane of Red Fell', 5, 4, '1RRR', 2, 4, "If a red source you control would deal damage to an opponent or a permanent an opponent controls, it deals that much damage plus 2 instead.", True))
+        self.cards.append(Card('Embercleave', 6, 6, '4RR', 0, 0, "Flash\nThis spell costs 1 less to cast for each attacking creature you control.\nWhen Embercleave enters the battlefield, attach it to target creature you control.\nEquipped creature gets +1/+1 and has double strike and trample.\nEquip 3 ", False))
+        self.cards.append(Land('Castle Embereth', 1, 'R', "Castle Embereth enters the battlefield tapped unless you control a Mountain.Tap: Add R,  1RRTAP: Creatures you control get +1/+0 until end of turn.", True))
+        for i in range(1,16):
+            self.cards.append(Land('Mountain', 1, 'R', "Tap for 1 red mana", False))
         for i in ['Hearts', 'Clubs', 'Diamonds']: #count to 3
             self.cards.append(Card('Fervent Champion', 1, 1, "R" , 1, 1, 'First strike, haste \nWhenever Fervent Champion attacks, another target attacking Knight you control gets +1/+0 until end of turn. \nEquip abilities you activate that target Fervent Champion cost 3 less to activate.\n', False))
             self.cards.append(Card('Scorch Spitter', 1, 1, "R", 1, 1, 'Whenever Scorch Spitter attacks, it deals 1 damage to the player or planeswalker it\'s attacking.', True))
@@ -144,23 +168,15 @@ class Player(object):
 
     # Display all the cards in the players hand
     def showHand(self):
-        print ("Player's hand: {}".format(self.hand))
+        print ("Player's hand: ")
+        for i in self.hand:
+            print(str(i) + " ")
         return self
 
     def discard(self):
         return self.hand.pop()
     
     
-    
-
-
-
-
-# Testing the model
-model = Sequential()
-model.add(Dense(12, input_dim=8, activation='relu'))
-model.add(Dense(8, activation='relu'))
-model.add(Dense(1, activation='sigmoid'))
 
 #The x needs to be the array of inputs whilst Y needs to be array of outputs
 #x = []
@@ -168,7 +184,7 @@ model.add(Dense(1, activation='sigmoid'))
 #model.fit(x, y, epochs =50; batch_size=10)
 
 # Test making a Card
-card = Card('Spades', 6)
+card = Land('Mountain', 1, 'R', "Tap for 1 red mana", False)
 print(card)
 
 # Test making a Deck
@@ -176,9 +192,9 @@ myDeck = Deck()
 myDeck.shuffle()
 # deck.show()
 
-PlayerOne = Player("One")
+PlayerOne = Player("One", myDeck)
 
-PlayerOne.sayHello()
+PlayerOne.sayLife()
 PlayerOne.draw(myDeck, 7)
 PlayerOne.showHand()
 
