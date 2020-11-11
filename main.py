@@ -27,16 +27,33 @@ class cardName(object):
         self.rulesText = "CopyOfRulesText"
 """
 
-#class Battlefield():
-    def__init__(self):
+class Battlefield(object):
+    def __init__(self):
+        self.cardsOne = [] #Cards On the field for P1
+        self.cardsTwo = [] #Cards On the field for P2 (UNUSED BUT HERE FOR CLARITY)
+        self.landsOne = [] #Lands for player one
+        self.landsTwo = [] #Lands for player two (UNUSED BUT HERE FOR CLARITY)
+        self.turn = 1  #turn counter
         
-    
-#class Land():
-
-class Card(object):
-    def __init__(self, name, value):
+        
+class Land():
+    def __init__(self, name, value, rulesText, sickness):
         self.name = name
         self.value = value
+        self.rulesText = rulesText #What does the card do, For debugging and laziness
+        self.sickness = sickness #If the rules text doesn't have Haste, put false
+        self.tap = False
+    
+class Card(object):
+    def __init__(self, name, value, cmc, power, toughness, rulesText, sickness):
+        self.name = name
+        self.cmc = cmc
+        self.power = power
+        self.toughness = toughness
+        self.rulesText = rulesText
+        self.sickness = sickness #If the rules text has Haste, put false
+        
+        
         
 
     # Implementing build in methods so that you can print a card object
@@ -64,9 +81,21 @@ class Deck(object):
 
     # Generate 52 cards
     def build(self):
-        self.cards = []
-        for suit in ['Hearts', 'Clubs', 'Diamonds', 'Spades']:
-            self.cards.append(Card(suit, val))
+        #self.cards = [] don't think I need this here
+        for i in ['Hearts', 'Clubs', 'Diamonds']: #count to 3
+            self.cards.append(Card('Fervent Champion', 1, "R" , 1, 1, 'First strike, haste \nWhenever Fervent Champion attacks, another target attacking Knight you control gets +1/+0 until end of turn. \nEquip abilities you activate that target Fervent Champion cost 3 less to activate.\n', False))
+            self.cards.append(Card('Scorch Spitter', 1, "R", 1, 1, 'Whenever Scorch Spitter attacks, it deals 1 damage to the player or planeswalker it\'s attacking.', True))
+            self.cards.append(Card('Rimrock Knight', 2, "1R", 3, 1, 'R : Target Creature gets +2/+0 until end of turn,\n Rimrock Knight can\'t block.', True))
+            self.cards.append(Card('Robber of the Rich', 3, '1R', 2, 2, 'Reach, haste\nWhenever Robber of the Rich attacks, if defending player has more cards in hand than you, exile the top card of their library. \nDuring any turn you attacked with a Rogue, you may cast that card and you may spend mana as though it were mana of any color to cast that spell.', False))
+            self.cards.append(Card('Runaway Steam-Kin', 3, '1R', 1, 1, rulesText, True))
+            self.cards.append(Card('Anax, Hardened in the Forge', 3, '1RR', 0, 3, rulesText, True))
+            self.cards.append(Card('Bonecrusher Giant', 4, '2R', 4, 3, rulesText, True))
+            self.cards.append(Card('Torbran, Thane of Red Fell', 5, '1RRR', 2, 4, rulesText, True))
+            self.cards.append(Card('Claim the Firstborn', 1, 'R', 2, 2, rulesText, False))
+            self.cards.append(Card('Embercleave', 6, '4RR', 0, 0, rulesText, False))
+            self.cards.append(Land('Castle Embereth', 1, 'R', "Castle Embereth enters the battlefield tapped unless you control a Mountain.Tap: Add R,  1RRTAP: Creatures you control get +1/+0 until end of turn.", True))
+            self.cards.append(Land('Mountain', 1, 'R', "Tap for 1 red mana", False))
+            
 
     # Shuffle the deck
     def shuffle(self, num=1):
@@ -87,9 +116,10 @@ class Deck(object):
 
 
 class Player(object):
-    def __init__(self, name):
+    def __init__(self, name, deck):
         self.name = name
         self.hand = []
+        self.deck = deck
         self.life = 20
 
     def sayLife(self):
