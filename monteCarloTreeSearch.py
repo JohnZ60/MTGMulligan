@@ -21,6 +21,8 @@ class MonteCarloTreeSearch:
         self.wins = {}
         self.plays = {}
 
+        #Larger values of C will encourage more exploration of the possibilities,
+        #and smaller values will cause the AI to prefer concentrating on known good moves.
         self.C = kwargs.get('C', 1.4)
 
 
@@ -96,12 +98,17 @@ class MonteCarloTreeSearch:
             #TODO: game nees a method nexState(state, play) that creates a new state, given the state and the move applied to it
             movesStates = [(p, self.game.nextState(state, p)) for p in legal]
 
+            #Use confidence interval formula to choose which move to take
+            #This formula adds together two parts. The first part is just the win ratio,
+            #but the second part is a term that grows slowly as a particular move remains neglected.
+            #Eventually, if a node with a poor win rate is neglected long enough, it will begin to be chosen again.
+            #This term can be tweaked using the configuration parameter C added to __init__ above.
             if all(plays.get((player, S)) for p, S in movesStates):
                 #If we have stats on all of the legal moves here, use them.
                 logTotal = log(sum(plays[(player, S)] for p, S in movesStates))
                 value, move, state = max(((wins[(player, S)] / plays[(player, S)]) + self.C * sqrt(logTotal / plays[(player, S)]), p, S))
             else:
-                #choose a random move
+                #Otherwise choose a random move
                 move, state = choice(movesStates)
 
             simulatedState.append(state)
@@ -117,7 +124,7 @@ class MonteCarloTreeSearch:
             visitedStates.add((player,state))
 
             player = self.game.currentPlayer(state)
-            #TODO: game nees a method winner that returns a winner? or a boolean to signal the end of game?
+            #TODO: game needs a method winner(state) that returns a winner? or a boolean to signal the end of game?
             winner = self.game.winner(simulatedState)
             if winner:
                 break
