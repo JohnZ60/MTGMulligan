@@ -98,7 +98,7 @@ class MonteCarloTreeSearch:
             #TODO: game nees a method nexState(state, play) that creates a new state, given the state and the move applied to it
             movesStates = [(p, self.game.nextState(state, p)) for p in legal]
 
-            #Use confidence interval formula to choose which move to take
+            #Use confidence interval formula to choose which move to take: meanPayOutForMachine +- sqrt(2 * Ln(numOfPlays) / numOfPlaysOfMachine)
             #This formula adds together two parts. The first part is just the win ratio,
             #but the second part is a term that grows slowly as a particular move remains neglected.
             #Eventually, if a node with a poor win rate is neglected long enough, it will begin to be chosen again.
