@@ -1,5 +1,9 @@
-#Referenced from: http://jeffbradberry.com/posts/2015/09/intro-to-monte-carlo-tree-search/
-
+""" Title: Introduction to Monte Carlo Tree Search
+Author: Jeff Bradberry
+Date: 11/23/2020
+Code version: Unknown
+Availability: http://jeffbradberry.com/posts/2015/09/intro-to-monte-carlo-tree-search/
+"""
 import random
 import datetime
 from random import choice
