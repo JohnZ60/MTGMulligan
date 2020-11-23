@@ -30,7 +30,7 @@ class MonteCarloTreeSearch:
         #Takes a game state, and appends it to the history
         self.states.append(state)
 
-    def get_play(self):
+    def getPlay(self):
         #Causes the AI to calculate the best move from
         #the current game state and return it
         self.maxDepth = 0
