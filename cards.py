@@ -62,7 +62,7 @@ class Sorcery(Card):
 
 
 class Creature(Card):
-    def __init__(self, name, subtypes, mc, power, toughness, cannot_block=False):
+    def __init__(self, name, subtypes, mc, power, toughness, rulesText="", cannot_block=False):
         super(Creature, self).__init__()
         self.name = name
         self.mc = {x: mc.get(x, 0) + self.mc.get(x, 0) for x in set(mc).union(self.mc)}
@@ -78,6 +78,7 @@ class Creature(Card):
         self.is_attacking = []
         self.is_blocked_by = []
         self.is_blocking = []
+        self.rulesText = rulesText
         self.damage_assignment_order = []
         self.damage_assignment = []
         # Consider adding a functional creature card instantiation argument that sets text automatically
