@@ -60,15 +60,18 @@ class Game:
                 player.manapool[mana] -= 1
                 player.generic_debt -= 1
             return True
+        
         if player.casting_spell != "":
             if player.casting_spell == "Vengeance":
                 dead_creature = self.battlefield[move]
                 self.battlefield.remove(dead_creature)
                 dead_creature.owner.graveyard.append(dead_creature)
+                
             if player.casting_spell == "Stone Rain":
                 destroyed_land = self.battlefield[move]
                 self.battlefield.remove(destroyed_land)
                 destroyed_land.owner.graveyard.append(destroyed_land)
+                
             if player.casting_spell == "Index":
                 for i in range(len(move)):
                     indexed_card = player.deck.pop()
@@ -79,8 +82,10 @@ class Game:
                 for index in move:
                     player.deck.append(self.temporary_zone[index])
                 self.temporary_zone = []
+                
             if player.casting_spell == "Lava Axe":
                 self.players[move].life -= 5
+                
             if player.casting_spell == "Rampant Growth":
                 if not move == "Refuse":
                     land_index = player.find_land_in_library(move)
@@ -89,9 +94,11 @@ class Game:
                     land.is_tapped = False
                     land.owner = player
                 player.shuffle_deck()
+                
             if player.casting_spell == "Volcanic Hammer":
                 self.update_damage_targets()
                 self.damage_targets[move].take_damage(3)
+                
             if player.casting_spell == "Sacred Nectar":
                 player.life += 4
             player.casting_spell = ""
@@ -103,6 +110,7 @@ class Game:
             if self.players[0].passed_priority and self.players[1].passed_priority and self.stack_is_empty:
                 self.go_to_next_phase()
             return True
+        
         if self.current_phase_index == Phases.MAIN_PHASE_PRE_COMBAT:
             playable_indices = player.get_playable_cards(self)
             callable_permanents, ability_indices = player.get_activated_abilities(self)
