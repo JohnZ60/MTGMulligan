@@ -42,12 +42,13 @@ class Land(Card):
 
 
 class Sorcery(Card):
-    def __init__(self, name, subtypes, mc):
+    def __init__(self, name, subtypes, mc, rulesText):
         super(Sorcery, self).__init__()
         self.name = name
         self.mc = {x: mc.get(x, 0) + self.mc.get(x, 0) for x in set(mc).union(self.mc)}
         self.subtypes = subtypes
-
+        self.rulesText = rulesText
+        
     def play(self, owner, game, verbose=False):
         super(Sorcery, self).play(owner, game)
         if verbose:
@@ -60,6 +61,28 @@ class Sorcery(Card):
     def __str__(self):
         return self.name
 
+class Artifact(Card):
+    def __init__(self, name, subtypes, mc, rulesText):
+        super(Sorcery, self).__init__()
+        self.name = name
+        self.mc = {x: mc.get(x, 0) + self.mc.get(x, 0) for x in set(mc).union(self.mc)}
+        self.subtypes = subtypes
+        self.rulesText = rulesText
+        self.creature=False
+
+    def play(self, owner, game, verbose=False):
+        super(Artifact, self).play(owner, game)
+        if verbose:
+            print("    casting %s" % (self.name))
+        game.battlefield.append(self)
+
+    def __repr__(self):
+        return self.name
+    
+    
+
+    def __str__(self):
+        return self.name
 
 class Creature(Card):
     def __init__(self, name, subtypes, mc, power, toughness, rulesText="", cannot_block=False):
