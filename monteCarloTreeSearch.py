@@ -58,7 +58,7 @@ class MonteCarloTreeSearch:
         movesStates = [(p, self.game.nextState(state,p)) for p in legal]
 
         #Display the number of calls of 'runSimulation' and the time elapsed.
-        print games, datetime.datetime.utcnow() - begin
+        print (games, datetime.datetime.utcnow() - begin)
 
         #Pick the move with the highest percentage of wins.
         percentWins, move = max(
@@ -74,9 +74,9 @@ class MonteCarloTreeSearch:
             for p, S in movesStates),
             reverse = True
         ):
-            print "{3}: {0:.2f}% ({1}/{2})".format(*x)
+            print ("{3}: {0:.2f}% ({1}/{2})".format(*x))
 
-        print "Maximum depth searched:",self.maxDepth
+        print ("Maximum depth searched:", self.maxDepth)
 
         return move
 
@@ -95,7 +95,7 @@ class MonteCarloTreeSearch:
         player = self.game.currentPlayer(state)
 
         expand = True
-        for t in xrange(1, self.maxMoves + 1):
+        for t in range(1, self.maxMoves + 1):
             #legal is the list legal moves that the player can take
             #TODO: game needs a method legalPlays(state) that returns a list of legal moves(attack/place cards...)
             legal = self.game.legalPlays(simulatedStates)
@@ -110,12 +110,16 @@ class MonteCarloTreeSearch:
             if all(plays.get((player, S)) for p, S in movesStates):
                 #If we have stats on all of the legal moves here, use them.
                 logTotal = log(sum(plays[(player, S)] for p, S in movesStates))
-                value, move, state = max(((wins[(player, S)] / plays[(player, S)]) + self.C * sqrt(logTotal / plays[(player, S)]), p, S))
+                value, move, state = max(
+                    ((wins[(player, S)] / plays[(player, S)]) + 
+                     self.C * sqrt(logTotal / plays[(player, S)]), p, S)
+                    for p, S in movesStates
+                )
             else:
                 #Otherwise choose a random move
                 move, state = choice(movesStates)
 
-            simulatedState.append(state)
+            simulatedStates.append(state)
 
             #If current state is the first new one this function have encountered
             if expand and (player, state) not in self.playes:
@@ -129,11 +133,11 @@ class MonteCarloTreeSearch:
 
             player = self.game.currentPlayer(state)
             #TODO: game needs a method winner(state) that returns a winner? or a boolean to signal the end of game?
-            winner = self.game.winner(simulatedState)
+            winner = self.game.winner(simulatedStates)
             if winner:
                 break
 
-            for player, state in vistedStates:
+            for player, state in visitedStates:
                 if (player,state) not in self.plays:
                     continue
                 self.plays[(player,state)] += 1
