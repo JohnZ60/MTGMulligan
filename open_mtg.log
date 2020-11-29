@@ -268,33 +268,2864 @@ TypeError: __init__() missing 1 required positional argument: 'rulesText'
 2020-11-28 20:47:31,656  [INFO ]  Quitting Open MTG
 
 
-2020-11-29 02:41:31,137  [INFO ]  Starting Open MTG. Playing 2 games
-2020-11-29 02:41:31,138  [INFO ]  Silver player starts game
-2020-11-29 02:41:32,644  [INFO ]  Game 1 is over! current standings: 0 - 1
-2020-11-29 02:41:32,644  [INFO ]  Gold player starts game
-2020-11-29 02:41:35,433  [INFO ]  Game 2 is over! current standings: 0 - 2
-2020-11-29 02:41:35,433  [INFO ]  Player A won 0 out of 2
-2020-11-29 02:41:35,434  [INFO ]  Player B won 2 out of 2
-2020-11-29 02:41:35,434  [INFO ]  Quitting Open MTG
-
+2020-11-28 20:53:58,603  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-28 20:53:58,645  [INFO ]  Silver player starts game
+2020-11-28 20:54:27,026  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-28 20:54:27,041  [INFO ]  Silver player starts game
+2020-11-28 20:54:32,762  [ERROR]  Open-mtg stopped by Keyboard Interrupt
 
-2020-11-29 02:41:41,981  [INFO ]  Starting Open MTG. Playing 2 games
-2020-11-29 02:41:41,981  [INFO ]  Starting Open MTG. Playing 2 games
-2020-11-29 02:41:41,983  [INFO ]  Silver player starts game
-2020-11-29 02:41:41,983  [INFO ]  Silver player starts game
-2020-11-29 02:41:44,736  [INFO ]  Game 1 is over! current standings: 1 - 0
-2020-11-29 02:41:44,736  [INFO ]  Game 1 is over! current standings: 1 - 0
-2020-11-29 02:41:44,738  [INFO ]  Silver player starts game
-2020-11-29 02:41:44,738  [INFO ]  Silver player starts game
-2020-11-29 02:41:46,247  [INFO ]  Game 2 is over! current standings: 2 - 0
-2020-11-29 02:41:46,247  [INFO ]  Game 2 is over! current standings: 2 - 0
-2020-11-29 02:41:46,248  [INFO ]  Player A won 2 out of 2
-2020-11-29 02:41:46,248  [INFO ]  Player A won 2 out of 2
-2020-11-29 02:41:46,249  [INFO ]  Player B won 0 out of 2
-2020-11-29 02:41:46,249  [INFO ]  Player B won 0 out of 2
-2020-11-29 02:41:46,249  [INFO ]  Quitting Open MTG
-
 
-2020-11-29 02:41:46,249  [INFO ]  Quitting Open MTG
-
+2020-11-29 12:25:25,894  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-29 12:25:25,894  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-29 12:25:25,908  [INFO ]  Silver player starts game
+2020-11-29 12:25:25,908  [INFO ]  Silver player starts game
+2020-11-29 12:25:54,867  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:25:54,867  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:25:54,881  [INFO ]  Gold player starts game
+2020-11-29 12:25:54,881  [INFO ]  Gold player starts game
+2020-11-29 12:26:09,977  [ERROR]  Open-mtg stopped by Keyboard Interrupt
+
+
+2020-11-29 12:26:09,977  [ERROR]  Open-mtg stopped by Keyboard Interrupt
+
+
+2020-11-29 12:26:12,726  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-29 12:26:12,726  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-29 12:26:12,726  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-29 12:26:12,748  [INFO ]  Silver player starts game
+2020-11-29 12:26:12,748  [INFO ]  Silver player starts game
+2020-11-29 12:26:12,748  [INFO ]  Silver player starts game
+2020-11-29 12:26:34,484  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:26:34,484  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:26:34,484  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:26:34,522  [INFO ]  Gold player starts game
+2020-11-29 12:26:34,522  [INFO ]  Gold player starts game
+2020-11-29 12:26:34,522  [INFO ]  Gold player starts game
+2020-11-29 12:26:48,885  [ERROR]  Open-mtg stopped by Keyboard Interrupt
+
+
+2020-11-29 12:26:48,885  [ERROR]  Open-mtg stopped by Keyboard Interrupt
+
+
+2020-11-29 12:26:48,885  [ERROR]  Open-mtg stopped by Keyboard Interrupt
+
+
+2020-11-29 12:29:10,435  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:29:10,435  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:29:10,435  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:29:10,435  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:29:10,464  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 113, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 308, in start_game
+    print("startinghand size: " + self.starting_hand_size)
+TypeError: can only concatenate str (not "int") to str
+2020-11-29 12:29:10,464  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 113, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 308, in start_game
+    print("startinghand size: " + self.starting_hand_size)
+TypeError: can only concatenate str (not "int") to str
+2020-11-29 12:29:10,464  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 113, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 308, in start_game
+    print("startinghand size: " + self.starting_hand_size)
+TypeError: can only concatenate str (not "int") to str
+2020-11-29 12:29:10,464  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 113, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 308, in start_game
+    print("startinghand size: " + self.starting_hand_size)
+TypeError: can only concatenate str (not "int") to str
+2020-11-29 12:29:43,201  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:29:43,201  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:29:43,201  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:29:43,201  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:29:43,201  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:29:43,223  [INFO ]  Silver player starts game
+2020-11-29 12:29:43,223  [INFO ]  Silver player starts game
+2020-11-29 12:29:43,223  [INFO ]  Silver player starts game
+2020-11-29 12:29:43,223  [INFO ]  Silver player starts game
+2020-11-29 12:29:43,223  [INFO ]  Silver player starts game
+2020-11-29 12:30:08,884  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:30:08,884  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:30:08,884  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:30:08,884  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:30:08,884  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:30:08,901  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:30:08,901  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:30:08,901  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:30:08,901  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:30:08,901  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:30:08,913  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:30:08,913  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:30:08,913  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:30:08,913  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:30:08,913  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:30:08,925  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:30:08,925  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:30:08,925  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:30:08,925  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:30:08,925  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:32:50,256  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:32:50,256  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:32:50,256  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:32:50,256  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:32:50,256  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:32:50,256  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:32:50,284  [INFO ]  Silver player starts game
+2020-11-29 12:32:50,284  [INFO ]  Silver player starts game
+2020-11-29 12:32:50,284  [INFO ]  Silver player starts game
+2020-11-29 12:32:50,284  [INFO ]  Silver player starts game
+2020-11-29 12:32:50,284  [INFO ]  Silver player starts game
+2020-11-29 12:32:50,284  [INFO ]  Silver player starts game
+2020-11-29 12:33:14,840  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:33:14,840  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:33:14,840  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:33:14,840  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:33:14,840  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:33:14,840  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:33:14,892  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:33:14,892  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:33:14,892  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:33:14,892  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:33:14,892  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:33:14,892  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:33:14,923  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:33:14,923  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:33:14,923  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:33:14,923  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:33:14,923  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:33:14,923  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:33:14,944  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:33:14,944  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:33:14,944  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:33:14,944  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:33:14,944  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:33:14,944  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:35:07,631  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:35:07,631  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:35:07,631  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:35:07,631  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:35:07,631  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:35:07,631  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:35:07,631  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:35:07,684  [INFO ]  Silver player starts game
+2020-11-29 12:35:07,684  [INFO ]  Silver player starts game
+2020-11-29 12:35:07,684  [INFO ]  Silver player starts game
+2020-11-29 12:35:07,684  [INFO ]  Silver player starts game
+2020-11-29 12:35:07,684  [INFO ]  Silver player starts game
+2020-11-29 12:35:07,684  [INFO ]  Silver player starts game
+2020-11-29 12:35:07,684  [INFO ]  Silver player starts game
+2020-11-29 12:35:30,149  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 12:35:30,149  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 12:35:30,149  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 12:35:30,149  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 12:35:30,149  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 12:35:30,149  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 12:35:30,149  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 12:35:30,190  [INFO ]  Player A won 0 out of 1
+2020-11-29 12:35:30,190  [INFO ]  Player A won 0 out of 1
+2020-11-29 12:35:30,190  [INFO ]  Player A won 0 out of 1
+2020-11-29 12:35:30,190  [INFO ]  Player A won 0 out of 1
+2020-11-29 12:35:30,190  [INFO ]  Player A won 0 out of 1
+2020-11-29 12:35:30,190  [INFO ]  Player A won 0 out of 1
+2020-11-29 12:35:30,190  [INFO ]  Player A won 0 out of 1
+2020-11-29 12:35:30,231  [INFO ]  Player B won 1 out of 1
+2020-11-29 12:35:30,231  [INFO ]  Player B won 1 out of 1
+2020-11-29 12:35:30,231  [INFO ]  Player B won 1 out of 1
+2020-11-29 12:35:30,231  [INFO ]  Player B won 1 out of 1
+2020-11-29 12:35:30,231  [INFO ]  Player B won 1 out of 1
+2020-11-29 12:35:30,231  [INFO ]  Player B won 1 out of 1
+2020-11-29 12:35:30,231  [INFO ]  Player B won 1 out of 1
+2020-11-29 12:35:30,248  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:35:30,248  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:35:30,248  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:35:30,248  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:35:30,248  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:35:30,248  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:35:30,248  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:39:00,304  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:39:00,304  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:39:00,304  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:39:00,304  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:39:00,304  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:39:00,304  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:39:00,304  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:39:00,304  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:39:08,908  [ERROR]  Open-mtg stopped by Keyboard Interrupt
+
+
+2020-11-29 12:39:08,908  [ERROR]  Open-mtg stopped by Keyboard Interrupt
+
+
+2020-11-29 12:39:08,908  [ERROR]  Open-mtg stopped by Keyboard Interrupt
+
+
+2020-11-29 12:39:08,908  [ERROR]  Open-mtg stopped by Keyboard Interrupt
+
+
+2020-11-29 12:39:08,908  [ERROR]  Open-mtg stopped by Keyboard Interrupt
+
+
+2020-11-29 12:39:08,908  [ERROR]  Open-mtg stopped by Keyboard Interrupt
+
+
+2020-11-29 12:39:08,908  [ERROR]  Open-mtg stopped by Keyboard Interrupt
+
+
+2020-11-29 12:39:08,908  [ERROR]  Open-mtg stopped by Keyboard Interrupt
+
+
+2020-11-29 12:39:35,791  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:39:35,791  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:39:35,791  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:39:35,791  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:39:35,791  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:39:35,791  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:39:35,791  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:39:35,791  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:39:35,791  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:39:35,826  [INFO ]  Silver player starts game
+2020-11-29 12:39:35,826  [INFO ]  Silver player starts game
+2020-11-29 12:39:35,826  [INFO ]  Silver player starts game
+2020-11-29 12:39:35,826  [INFO ]  Silver player starts game
+2020-11-29 12:39:35,826  [INFO ]  Silver player starts game
+2020-11-29 12:39:35,826  [INFO ]  Silver player starts game
+2020-11-29 12:39:35,826  [INFO ]  Silver player starts game
+2020-11-29 12:39:35,826  [INFO ]  Silver player starts game
+2020-11-29 12:39:35,826  [INFO ]  Silver player starts game
+2020-11-29 12:39:46,590  [ERROR]  Open-mtg stopped by Keyboard Interrupt
+
+
+2020-11-29 12:39:46,590  [ERROR]  Open-mtg stopped by Keyboard Interrupt
+
+
+2020-11-29 12:39:46,590  [ERROR]  Open-mtg stopped by Keyboard Interrupt
+
+
+2020-11-29 12:39:46,590  [ERROR]  Open-mtg stopped by Keyboard Interrupt
+
+
+2020-11-29 12:39:46,590  [ERROR]  Open-mtg stopped by Keyboard Interrupt
+
+
+2020-11-29 12:39:46,590  [ERROR]  Open-mtg stopped by Keyboard Interrupt
+
+
+2020-11-29 12:39:46,590  [ERROR]  Open-mtg stopped by Keyboard Interrupt
+
+
+2020-11-29 12:39:46,590  [ERROR]  Open-mtg stopped by Keyboard Interrupt
+
+
+2020-11-29 12:39:46,590  [ERROR]  Open-mtg stopped by Keyboard Interrupt
+
+
+2020-11-29 12:40:52,353  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:40:52,353  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:40:52,353  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:40:52,353  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:40:52,353  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:40:52,353  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:40:52,353  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:40:52,353  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:40:52,353  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:40:52,353  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:40:52,458  [INFO ]  Silver player starts game
+2020-11-29 12:40:52,458  [INFO ]  Silver player starts game
+2020-11-29 12:40:52,458  [INFO ]  Silver player starts game
+2020-11-29 12:40:52,458  [INFO ]  Silver player starts game
+2020-11-29 12:40:52,458  [INFO ]  Silver player starts game
+2020-11-29 12:40:52,458  [INFO ]  Silver player starts game
+2020-11-29 12:40:52,458  [INFO ]  Silver player starts game
+2020-11-29 12:40:52,458  [INFO ]  Silver player starts game
+2020-11-29 12:40:52,458  [INFO ]  Silver player starts game
+2020-11-29 12:40:52,458  [INFO ]  Silver player starts game
+2020-11-29 12:41:23,303  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:41:23,303  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:41:23,303  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:41:23,303  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:41:23,303  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:41:23,303  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:41:23,303  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:41:23,303  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:41:23,303  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:41:23,303  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:41:23,339  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:41:23,339  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:41:23,339  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:41:23,339  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:41:23,339  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:41:23,339  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:41:23,339  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:41:23,339  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:41:23,339  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:41:23,339  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:41:23,365  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:41:23,365  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:41:23,365  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:41:23,365  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:41:23,365  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:41:23,365  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:41:23,365  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:41:23,365  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:41:23,365  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:41:23,365  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:41:23,400  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:41:23,400  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:41:23,400  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:41:23,400  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:41:23,400  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:41:23,400  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:41:23,400  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:41:23,400  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:41:23,400  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:41:23,400  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:42:00,241  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:42:00,241  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:42:00,241  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:42:00,241  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:42:00,241  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:42:00,241  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:42:00,241  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:42:00,241  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:42:00,241  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:42:00,241  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:42:00,241  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:42:00,328  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 113, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    print(len(players[i].deck))
+NameError: name 'players' is not defined
+2020-11-29 12:42:00,328  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 113, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    print(len(players[i].deck))
+NameError: name 'players' is not defined
+2020-11-29 12:42:00,328  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 113, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    print(len(players[i].deck))
+NameError: name 'players' is not defined
+2020-11-29 12:42:00,328  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 113, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    print(len(players[i].deck))
+NameError: name 'players' is not defined
+2020-11-29 12:42:00,328  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 113, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    print(len(players[i].deck))
+NameError: name 'players' is not defined
+2020-11-29 12:42:00,328  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 113, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    print(len(players[i].deck))
+NameError: name 'players' is not defined
+2020-11-29 12:42:00,328  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 113, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    print(len(players[i].deck))
+NameError: name 'players' is not defined
+2020-11-29 12:42:00,328  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 113, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    print(len(players[i].deck))
+NameError: name 'players' is not defined
+2020-11-29 12:42:00,328  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 113, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    print(len(players[i].deck))
+NameError: name 'players' is not defined
+2020-11-29 12:42:00,328  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 113, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    print(len(players[i].deck))
+NameError: name 'players' is not defined
+2020-11-29 12:42:00,328  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 113, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    print(len(players[i].deck))
+NameError: name 'players' is not defined
+2020-11-29 12:42:18,987  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:42:18,987  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:42:18,987  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:42:18,987  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:42:18,987  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:42:18,987  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:42:18,987  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:42:18,987  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:42:18,987  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:42:18,987  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:42:18,987  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:42:18,987  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:42:19,076  [INFO ]  Silver player starts game
+2020-11-29 12:42:19,076  [INFO ]  Silver player starts game
+2020-11-29 12:42:19,076  [INFO ]  Silver player starts game
+2020-11-29 12:42:19,076  [INFO ]  Silver player starts game
+2020-11-29 12:42:19,076  [INFO ]  Silver player starts game
+2020-11-29 12:42:19,076  [INFO ]  Silver player starts game
+2020-11-29 12:42:19,076  [INFO ]  Silver player starts game
+2020-11-29 12:42:19,076  [INFO ]  Silver player starts game
+2020-11-29 12:42:19,076  [INFO ]  Silver player starts game
+2020-11-29 12:42:19,076  [INFO ]  Silver player starts game
+2020-11-29 12:42:19,076  [INFO ]  Silver player starts game
+2020-11-29 12:42:19,076  [INFO ]  Silver player starts game
+2020-11-29 12:42:49,692  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:42:49,692  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:42:49,692  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:42:49,692  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:42:49,692  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:42:49,692  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:42:49,692  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:42:49,692  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:42:49,692  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:42:49,692  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:42:49,692  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:42:49,692  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:42:49,731  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:42:49,731  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:42:49,731  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:42:49,731  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:42:49,731  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:42:49,731  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:42:49,731  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:42:49,731  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:42:49,731  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:42:49,731  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:42:49,731  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:42:49,731  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:42:49,767  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:42:49,767  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:42:49,767  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:42:49,767  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:42:49,767  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:42:49,767  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:42:49,767  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:42:49,767  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:42:49,767  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:42:49,767  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:42:49,767  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:42:49,767  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:42:49,798  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:42:49,798  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:42:49,798  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:42:49,798  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:42:49,798  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:42:49,798  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:42:49,798  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:42:49,798  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:42:49,798  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:42:49,798  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:42:49,798  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:42:49,798  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:46:42,048  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:46:42,048  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:46:42,048  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:46:42,048  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:46:42,048  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:46:42,048  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:46:42,048  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:46:42,048  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:46:42,048  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:46:42,048  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:46:42,048  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:46:42,048  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:46:42,048  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:46:42,092  [INFO ]  Gold player starts game
+2020-11-29 12:46:42,092  [INFO ]  Gold player starts game
+2020-11-29 12:46:42,092  [INFO ]  Gold player starts game
+2020-11-29 12:46:42,092  [INFO ]  Gold player starts game
+2020-11-29 12:46:42,092  [INFO ]  Gold player starts game
+2020-11-29 12:46:42,092  [INFO ]  Gold player starts game
+2020-11-29 12:46:42,092  [INFO ]  Gold player starts game
+2020-11-29 12:46:42,092  [INFO ]  Gold player starts game
+2020-11-29 12:46:42,092  [INFO ]  Gold player starts game
+2020-11-29 12:46:42,092  [INFO ]  Gold player starts game
+2020-11-29 12:46:42,092  [INFO ]  Gold player starts game
+2020-11-29 12:46:42,092  [INFO ]  Gold player starts game
+2020-11-29 12:46:42,092  [INFO ]  Gold player starts game
+2020-11-29 12:46:59,813  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 12:46:59,813  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 12:46:59,813  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 12:46:59,813  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 12:46:59,813  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 12:46:59,813  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 12:46:59,813  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 12:46:59,813  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 12:46:59,813  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 12:46:59,813  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 12:46:59,813  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 12:46:59,813  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 12:46:59,813  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 12:46:59,872  [INFO ]  Player A won 0 out of 1
+2020-11-29 12:46:59,872  [INFO ]  Player A won 0 out of 1
+2020-11-29 12:46:59,872  [INFO ]  Player A won 0 out of 1
+2020-11-29 12:46:59,872  [INFO ]  Player A won 0 out of 1
+2020-11-29 12:46:59,872  [INFO ]  Player A won 0 out of 1
+2020-11-29 12:46:59,872  [INFO ]  Player A won 0 out of 1
+2020-11-29 12:46:59,872  [INFO ]  Player A won 0 out of 1
+2020-11-29 12:46:59,872  [INFO ]  Player A won 0 out of 1
+2020-11-29 12:46:59,872  [INFO ]  Player A won 0 out of 1
+2020-11-29 12:46:59,872  [INFO ]  Player A won 0 out of 1
+2020-11-29 12:46:59,872  [INFO ]  Player A won 0 out of 1
+2020-11-29 12:46:59,872  [INFO ]  Player A won 0 out of 1
+2020-11-29 12:46:59,872  [INFO ]  Player A won 0 out of 1
+2020-11-29 12:46:59,931  [INFO ]  Player B won 1 out of 1
+2020-11-29 12:46:59,931  [INFO ]  Player B won 1 out of 1
+2020-11-29 12:46:59,931  [INFO ]  Player B won 1 out of 1
+2020-11-29 12:46:59,931  [INFO ]  Player B won 1 out of 1
+2020-11-29 12:46:59,931  [INFO ]  Player B won 1 out of 1
+2020-11-29 12:46:59,931  [INFO ]  Player B won 1 out of 1
+2020-11-29 12:46:59,931  [INFO ]  Player B won 1 out of 1
+2020-11-29 12:46:59,931  [INFO ]  Player B won 1 out of 1
+2020-11-29 12:46:59,931  [INFO ]  Player B won 1 out of 1
+2020-11-29 12:46:59,931  [INFO ]  Player B won 1 out of 1
+2020-11-29 12:46:59,931  [INFO ]  Player B won 1 out of 1
+2020-11-29 12:46:59,931  [INFO ]  Player B won 1 out of 1
+2020-11-29 12:46:59,931  [INFO ]  Player B won 1 out of 1
+2020-11-29 12:46:59,976  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:46:59,976  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:46:59,976  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:46:59,976  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:46:59,976  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:46:59,976  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:46:59,976  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:46:59,976  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:46:59,976  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:46:59,976  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:46:59,976  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:46:59,976  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:46:59,976  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:47:46,047  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:47:46,047  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:47:46,047  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:47:46,047  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:47:46,047  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:47:46,047  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:47:46,047  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:47:46,047  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:47:46,047  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:47:46,047  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:47:46,047  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:47:46,047  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:47:46,047  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:47:46,047  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:47:46,139  [INFO ]  Gold player starts game
+2020-11-29 12:47:46,139  [INFO ]  Gold player starts game
+2020-11-29 12:47:46,139  [INFO ]  Gold player starts game
+2020-11-29 12:47:46,139  [INFO ]  Gold player starts game
+2020-11-29 12:47:46,139  [INFO ]  Gold player starts game
+2020-11-29 12:47:46,139  [INFO ]  Gold player starts game
+2020-11-29 12:47:46,139  [INFO ]  Gold player starts game
+2020-11-29 12:47:46,139  [INFO ]  Gold player starts game
+2020-11-29 12:47:46,139  [INFO ]  Gold player starts game
+2020-11-29 12:47:46,139  [INFO ]  Gold player starts game
+2020-11-29 12:47:46,139  [INFO ]  Gold player starts game
+2020-11-29 12:47:46,139  [INFO ]  Gold player starts game
+2020-11-29 12:47:46,139  [INFO ]  Gold player starts game
+2020-11-29 12:47:46,139  [INFO ]  Gold player starts game
+2020-11-29 12:48:05,123  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:48:05,123  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:48:05,123  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:48:05,123  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:48:05,123  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:48:05,123  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:48:05,123  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:48:05,123  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:48:05,123  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:48:05,123  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:48:05,123  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:48:05,123  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:48:05,123  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:48:05,123  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:48:05,165  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:48:05,165  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:48:05,165  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:48:05,165  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:48:05,165  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:48:05,165  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:48:05,165  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:48:05,165  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:48:05,165  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:48:05,165  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:48:05,165  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:48:05,165  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:48:05,165  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:48:05,165  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:48:05,201  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:48:05,201  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:48:05,201  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:48:05,201  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:48:05,201  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:48:05,201  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:48:05,201  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:48:05,201  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:48:05,201  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:48:05,201  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:48:05,201  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:48:05,201  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:48:05,201  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:48:05,201  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:48:05,250  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:48:05,250  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:48:05,250  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:48:05,250  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:48:05,250  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:48:05,250  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:48:05,250  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:48:05,250  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:48:05,250  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:48:05,250  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:48:05,250  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:48:05,250  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:48:05,250  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:48:05,250  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:50:18,109  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:50:18,109  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:50:18,109  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:50:18,109  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:50:18,109  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:50:18,109  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:50:18,109  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:50:18,109  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:50:18,109  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:50:18,109  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:50:18,109  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:50:18,109  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:50:18,109  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:50:18,109  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:50:18,109  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:50:18,178  [INFO ]  Gold player starts gameeee
+2020-11-29 12:50:18,178  [INFO ]  Gold player starts gameeee
+2020-11-29 12:50:18,178  [INFO ]  Gold player starts gameeee
+2020-11-29 12:50:18,178  [INFO ]  Gold player starts gameeee
+2020-11-29 12:50:18,178  [INFO ]  Gold player starts gameeee
+2020-11-29 12:50:18,178  [INFO ]  Gold player starts gameeee
+2020-11-29 12:50:18,178  [INFO ]  Gold player starts gameeee
+2020-11-29 12:50:18,178  [INFO ]  Gold player starts gameeee
+2020-11-29 12:50:18,178  [INFO ]  Gold player starts gameeee
+2020-11-29 12:50:18,178  [INFO ]  Gold player starts gameeee
+2020-11-29 12:50:18,178  [INFO ]  Gold player starts gameeee
+2020-11-29 12:50:18,178  [INFO ]  Gold player starts gameeee
+2020-11-29 12:50:18,178  [INFO ]  Gold player starts gameeee
+2020-11-29 12:50:18,178  [INFO ]  Gold player starts gameeee
+2020-11-29 12:50:18,178  [INFO ]  Gold player starts gameeee
+2020-11-29 12:50:34,132  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:50:34,132  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:50:34,132  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:50:34,132  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:50:34,132  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:50:34,132  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:50:34,132  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:50:34,132  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:50:34,132  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:50:34,132  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:50:34,132  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:50:34,132  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:50:34,132  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:50:34,132  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:50:34,132  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:50:34,214  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:50:34,214  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:50:34,214  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:50:34,214  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:50:34,214  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:50:34,214  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:50:34,214  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:50:34,214  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:50:34,214  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:50:34,214  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:50:34,214  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:50:34,214  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:50:34,214  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:50:34,214  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:50:34,214  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:50:34,249  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:50:34,249  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:50:34,249  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:50:34,249  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:50:34,249  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:50:34,249  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:50:34,249  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:50:34,249  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:50:34,249  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:50:34,249  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:50:34,249  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:50:34,249  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:50:34,249  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:50:34,249  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:50:34,249  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:50:34,298  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:50:34,298  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:50:34,298  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:50:34,298  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:50:34,298  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:50:34,298  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:50:34,298  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:50:34,298  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:50:34,298  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:50:34,298  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:50:34,298  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:50:34,298  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:50:34,298  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:50:34,298  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:50:34,298  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:51:53,198  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:51:53,198  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:51:53,198  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:51:53,198  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:51:53,198  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:51:53,198  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:51:53,198  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:51:53,198  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:51:53,198  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:51:53,198  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:51:53,198  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:51:53,198  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:51:53,198  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:51:53,198  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:51:53,198  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:51:53,198  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 12:51:53,349  [INFO ]  Silver player starts game
+2020-11-29 12:51:53,349  [INFO ]  Silver player starts game
+2020-11-29 12:51:53,349  [INFO ]  Silver player starts game
+2020-11-29 12:51:53,349  [INFO ]  Silver player starts game
+2020-11-29 12:51:53,349  [INFO ]  Silver player starts game
+2020-11-29 12:51:53,349  [INFO ]  Silver player starts game
+2020-11-29 12:51:53,349  [INFO ]  Silver player starts game
+2020-11-29 12:51:53,349  [INFO ]  Silver player starts game
+2020-11-29 12:51:53,349  [INFO ]  Silver player starts game
+2020-11-29 12:51:53,349  [INFO ]  Silver player starts game
+2020-11-29 12:51:53,349  [INFO ]  Silver player starts game
+2020-11-29 12:51:53,349  [INFO ]  Silver player starts game
+2020-11-29 12:51:53,349  [INFO ]  Silver player starts game
+2020-11-29 12:51:53,349  [INFO ]  Silver player starts game
+2020-11-29 12:51:53,349  [INFO ]  Silver player starts game
+2020-11-29 12:51:53,349  [INFO ]  Silver player starts game
+2020-11-29 12:52:19,223  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:52:19,223  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:52:19,223  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:52:19,223  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:52:19,223  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:52:19,223  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:52:19,223  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:52:19,223  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:52:19,223  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:52:19,223  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:52:19,223  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:52:19,223  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:52:19,223  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:52:19,223  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:52:19,223  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:52:19,223  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 12:52:19,325  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:52:19,325  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:52:19,325  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:52:19,325  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:52:19,325  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:52:19,325  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:52:19,325  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:52:19,325  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:52:19,325  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:52:19,325  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:52:19,325  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:52:19,325  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:52:19,325  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:52:19,325  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:52:19,325  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:52:19,325  [INFO ]  Player A won 1 out of 1
+2020-11-29 12:52:19,405  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:52:19,405  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:52:19,405  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:52:19,405  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:52:19,405  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:52:19,405  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:52:19,405  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:52:19,405  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:52:19,405  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:52:19,405  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:52:19,405  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:52:19,405  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:52:19,405  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:52:19,405  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:52:19,405  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:52:19,405  [INFO ]  Player B won 0 out of 1
+2020-11-29 12:52:19,467  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:52:19,467  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:52:19,467  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:52:19,467  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:52:19,467  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:52:19,467  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:52:19,467  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:52:19,467  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:52:19,467  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:52:19,467  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:52:19,467  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:52:19,467  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:52:19,467  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:52:19,467  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:52:19,467  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 12:52:19,467  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:13:52,643  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:13:52,643  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:13:52,643  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:13:52,643  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:13:52,643  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:13:52,643  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:13:52,643  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:13:52,643  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:13:52,643  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:13:52,643  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:13:52,643  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:13:52,643  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:13:52,643  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:13:52,643  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:13:52,643  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:13:52,643  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:13:52,643  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:13:52,761  [INFO ]  Gold player starts game
+2020-11-29 13:13:52,761  [INFO ]  Gold player starts game
+2020-11-29 13:13:52,761  [INFO ]  Gold player starts game
+2020-11-29 13:13:52,761  [INFO ]  Gold player starts game
+2020-11-29 13:13:52,761  [INFO ]  Gold player starts game
+2020-11-29 13:13:52,761  [INFO ]  Gold player starts game
+2020-11-29 13:13:52,761  [INFO ]  Gold player starts game
+2020-11-29 13:13:52,761  [INFO ]  Gold player starts game
+2020-11-29 13:13:52,761  [INFO ]  Gold player starts game
+2020-11-29 13:13:52,761  [INFO ]  Gold player starts game
+2020-11-29 13:13:52,761  [INFO ]  Gold player starts game
+2020-11-29 13:13:52,761  [INFO ]  Gold player starts game
+2020-11-29 13:13:52,761  [INFO ]  Gold player starts game
+2020-11-29 13:13:52,761  [INFO ]  Gold player starts game
+2020-11-29 13:13:52,761  [INFO ]  Gold player starts game
+2020-11-29 13:13:52,761  [INFO ]  Gold player starts game
+2020-11-29 13:13:52,761  [INFO ]  Gold player starts game
+2020-11-29 13:14:14,066  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:14:14,066  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:14:14,066  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:14:14,066  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:14:14,066  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:14:14,066  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:14:14,066  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:14:14,066  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:14:14,066  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:14:14,066  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:14:14,066  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:14:14,066  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:14:14,066  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:14:14,066  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:14:14,066  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:14:14,066  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:14:14,066  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:14:14,137  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:14:14,137  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:14:14,137  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:14:14,137  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:14:14,137  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:14:14,137  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:14:14,137  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:14:14,137  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:14:14,137  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:14:14,137  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:14:14,137  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:14:14,137  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:14:14,137  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:14:14,137  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:14:14,137  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:14:14,137  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:14:14,137  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:14:14,228  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:14:14,228  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:14:14,228  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:14:14,228  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:14:14,228  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:14:14,228  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:14:14,228  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:14:14,228  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:14:14,228  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:14:14,228  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:14:14,228  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:14:14,228  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:14:14,228  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:14:14,228  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:14:14,228  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:14:14,228  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:14:14,228  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:14:14,273  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:14:14,273  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:14:14,273  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:14:14,273  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:14:14,273  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:14:14,273  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:14:14,273  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:14:14,273  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:14:14,273  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:14:14,273  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:14:14,273  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:14:14,273  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:14:14,273  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:14:14,273  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:14:14,273  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:14:14,273  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:14:14,273  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:19:04,848  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:04,848  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:04,848  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:04,848  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:04,848  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:04,848  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:04,848  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:04,848  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:04,848  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:04,848  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:04,848  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:04,848  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:04,848  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:04,848  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:04,848  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:04,848  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:04,848  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:04,848  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:04,917  [INFO ]  Gold player starts game
+2020-11-29 13:19:04,917  [INFO ]  Gold player starts game
+2020-11-29 13:19:04,917  [INFO ]  Gold player starts game
+2020-11-29 13:19:04,917  [INFO ]  Gold player starts game
+2020-11-29 13:19:04,917  [INFO ]  Gold player starts game
+2020-11-29 13:19:04,917  [INFO ]  Gold player starts game
+2020-11-29 13:19:04,917  [INFO ]  Gold player starts game
+2020-11-29 13:19:04,917  [INFO ]  Gold player starts game
+2020-11-29 13:19:04,917  [INFO ]  Gold player starts game
+2020-11-29 13:19:04,917  [INFO ]  Gold player starts game
+2020-11-29 13:19:04,917  [INFO ]  Gold player starts game
+2020-11-29 13:19:04,917  [INFO ]  Gold player starts game
+2020-11-29 13:19:04,917  [INFO ]  Gold player starts game
+2020-11-29 13:19:04,917  [INFO ]  Gold player starts game
+2020-11-29 13:19:04,917  [INFO ]  Gold player starts game
+2020-11-29 13:19:04,917  [INFO ]  Gold player starts game
+2020-11-29 13:19:04,917  [INFO ]  Gold player starts game
+2020-11-29 13:19:04,917  [INFO ]  Gold player starts game
+2020-11-29 13:19:27,331  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:19:27,331  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:19:27,331  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:19:27,331  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:19:27,331  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:19:27,331  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:19:27,331  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:19:27,331  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:19:27,331  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:19:27,331  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:19:27,331  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:19:27,331  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:19:27,331  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:19:27,331  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:19:27,331  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:19:27,331  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:19:27,331  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:19:27,331  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:19:27,388  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:19:27,388  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:19:27,388  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:19:27,388  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:19:27,388  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:19:27,388  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:19:27,388  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:19:27,388  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:19:27,388  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:19:27,388  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:19:27,388  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:19:27,388  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:19:27,388  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:19:27,388  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:19:27,388  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:19:27,388  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:19:27,388  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:19:27,388  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:19:27,430  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:19:27,430  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:19:27,430  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:19:27,430  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:19:27,430  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:19:27,430  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:19:27,430  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:19:27,430  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:19:27,430  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:19:27,430  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:19:27,430  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:19:27,430  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:19:27,430  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:19:27,430  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:19:27,430  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:19:27,430  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:19:27,430  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:19:27,430  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:19:27,471  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:19:27,471  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:19:27,471  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:19:27,471  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:19:27,471  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:19:27,471  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:19:27,471  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:19:27,471  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:19:27,471  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:19:27,471  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:19:27,471  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:19:27,471  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:19:27,471  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:19:27,471  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:19:27,471  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:19:27,471  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:19:27,471  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:19:27,471  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:19:56,410  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:56,410  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:56,410  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:56,410  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:56,410  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:56,410  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:56,410  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:56,410  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:56,410  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:56,410  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:56,410  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:56,410  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:56,410  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:56,410  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:56,410  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:56,410  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:56,410  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:56,410  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:56,410  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:19:56,525  [INFO ]  Silver player starts game
+2020-11-29 13:19:56,525  [INFO ]  Silver player starts game
+2020-11-29 13:19:56,525  [INFO ]  Silver player starts game
+2020-11-29 13:19:56,525  [INFO ]  Silver player starts game
+2020-11-29 13:19:56,525  [INFO ]  Silver player starts game
+2020-11-29 13:19:56,525  [INFO ]  Silver player starts game
+2020-11-29 13:19:56,525  [INFO ]  Silver player starts game
+2020-11-29 13:19:56,525  [INFO ]  Silver player starts game
+2020-11-29 13:19:56,525  [INFO ]  Silver player starts game
+2020-11-29 13:19:56,525  [INFO ]  Silver player starts game
+2020-11-29 13:19:56,525  [INFO ]  Silver player starts game
+2020-11-29 13:19:56,525  [INFO ]  Silver player starts game
+2020-11-29 13:19:56,525  [INFO ]  Silver player starts game
+2020-11-29 13:19:56,525  [INFO ]  Silver player starts game
+2020-11-29 13:19:56,525  [INFO ]  Silver player starts game
+2020-11-29 13:19:56,525  [INFO ]  Silver player starts game
+2020-11-29 13:19:56,525  [INFO ]  Silver player starts game
+2020-11-29 13:19:56,525  [INFO ]  Silver player starts game
+2020-11-29 13:19:56,525  [INFO ]  Silver player starts game
+2020-11-29 13:20:20,930  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:20:20,930  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:20:20,930  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:20:20,930  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:20:20,930  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:20:20,930  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:20:20,930  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:20:20,930  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:20:20,930  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:20:20,930  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:20:20,930  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:20:20,930  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:20:20,930  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:20:20,930  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:20:20,930  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:20:20,930  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:20:20,930  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:20:20,930  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:20:20,930  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:20:20,997  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:20:20,997  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:20:20,997  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:20:20,997  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:20:20,997  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:20:20,997  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:20:20,997  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:20:20,997  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:20:20,997  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:20:20,997  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:20:20,997  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:20:20,997  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:20:20,997  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:20:20,997  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:20:20,997  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:20:20,997  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:20:20,997  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:20:20,997  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:20:20,997  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:20:21,042  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:20:21,042  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:20:21,042  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:20:21,042  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:20:21,042  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:20:21,042  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:20:21,042  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:20:21,042  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:20:21,042  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:20:21,042  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:20:21,042  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:20:21,042  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:20:21,042  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:20:21,042  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:20:21,042  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:20:21,042  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:20:21,042  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:20:21,042  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:20:21,042  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:20:21,098  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:20:21,098  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:20:21,098  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:20:21,098  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:20:21,098  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:20:21,098  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:20:21,098  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:20:21,098  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:20:21,098  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:20:21,098  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:20:21,098  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:20:21,098  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:20:21,098  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:20:21,098  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:20:21,098  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:20:21,098  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:20:21,098  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:20:21,098  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:20:21,098  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:32:31,886  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:32:31,886  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:32:31,886  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:32:31,886  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:32:31,886  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:32:31,886  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:32:31,886  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:32:31,886  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:32:31,886  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:32:31,886  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:32:31,886  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:32:31,886  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:32:31,886  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:32:31,886  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:32:31,886  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:32:31,886  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:32:31,886  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:32:31,886  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:32:31,886  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:32:31,886  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:32:32,047  [INFO ]  Gold player starts game
+2020-11-29 13:32:32,047  [INFO ]  Gold player starts game
+2020-11-29 13:32:32,047  [INFO ]  Gold player starts game
+2020-11-29 13:32:32,047  [INFO ]  Gold player starts game
+2020-11-29 13:32:32,047  [INFO ]  Gold player starts game
+2020-11-29 13:32:32,047  [INFO ]  Gold player starts game
+2020-11-29 13:32:32,047  [INFO ]  Gold player starts game
+2020-11-29 13:32:32,047  [INFO ]  Gold player starts game
+2020-11-29 13:32:32,047  [INFO ]  Gold player starts game
+2020-11-29 13:32:32,047  [INFO ]  Gold player starts game
+2020-11-29 13:32:32,047  [INFO ]  Gold player starts game
+2020-11-29 13:32:32,047  [INFO ]  Gold player starts game
+2020-11-29 13:32:32,047  [INFO ]  Gold player starts game
+2020-11-29 13:32:32,047  [INFO ]  Gold player starts game
+2020-11-29 13:32:32,047  [INFO ]  Gold player starts game
+2020-11-29 13:32:32,047  [INFO ]  Gold player starts game
+2020-11-29 13:32:32,047  [INFO ]  Gold player starts game
+2020-11-29 13:32:32,047  [INFO ]  Gold player starts game
+2020-11-29 13:32:32,047  [INFO ]  Gold player starts game
+2020-11-29 13:32:32,047  [INFO ]  Gold player starts game
+2020-11-29 13:33:01,178  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:33:01,178  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:33:01,178  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:33:01,178  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:33:01,178  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:33:01,178  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:33:01,178  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:33:01,178  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:33:01,178  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:33:01,178  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:33:01,178  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:33:01,178  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:33:01,178  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:33:01,178  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:33:01,178  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:33:01,178  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:33:01,178  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:33:01,178  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:33:01,178  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:33:01,178  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:33:01,346  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:33:01,346  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:33:01,346  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:33:01,346  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:33:01,346  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:33:01,346  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:33:01,346  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:33:01,346  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:33:01,346  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:33:01,346  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:33:01,346  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:33:01,346  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:33:01,346  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:33:01,346  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:33:01,346  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:33:01,346  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:33:01,346  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:33:01,346  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:33:01,346  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:33:01,346  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:33:01,444  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:33:01,444  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:33:01,444  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:33:01,444  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:33:01,444  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:33:01,444  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:33:01,444  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:33:01,444  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:33:01,444  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:33:01,444  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:33:01,444  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:33:01,444  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:33:01,444  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:33:01,444  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:33:01,444  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:33:01,444  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:33:01,444  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:33:01,444  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:33:01,444  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:33:01,444  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:33:01,531  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:33:01,531  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:33:01,531  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:33:01,531  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:33:01,531  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:33:01,531  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:33:01,531  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:33:01,531  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:33:01,531  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:33:01,531  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:33:01,531  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:33:01,531  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:33:01,531  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:33:01,531  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:33:01,531  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:33:01,531  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:33:01,531  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:33:01,531  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:33:01,531  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:33:01,531  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:39:01,625  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:39:01,625  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:39:01,625  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:39:01,625  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:39:01,625  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:39:01,625  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:39:01,625  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:39:01,625  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:39:01,625  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:39:01,625  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:39:01,625  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:39:01,625  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:39:01,625  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:39:01,625  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:39:01,625  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:39:01,625  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:39:01,625  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:39:01,625  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:39:01,625  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:39:01,625  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:39:01,625  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:39:01,747  [INFO ]  Gold player starts game
+2020-11-29 13:39:01,747  [INFO ]  Gold player starts game
+2020-11-29 13:39:01,747  [INFO ]  Gold player starts game
+2020-11-29 13:39:01,747  [INFO ]  Gold player starts game
+2020-11-29 13:39:01,747  [INFO ]  Gold player starts game
+2020-11-29 13:39:01,747  [INFO ]  Gold player starts game
+2020-11-29 13:39:01,747  [INFO ]  Gold player starts game
+2020-11-29 13:39:01,747  [INFO ]  Gold player starts game
+2020-11-29 13:39:01,747  [INFO ]  Gold player starts game
+2020-11-29 13:39:01,747  [INFO ]  Gold player starts game
+2020-11-29 13:39:01,747  [INFO ]  Gold player starts game
+2020-11-29 13:39:01,747  [INFO ]  Gold player starts game
+2020-11-29 13:39:01,747  [INFO ]  Gold player starts game
+2020-11-29 13:39:01,747  [INFO ]  Gold player starts game
+2020-11-29 13:39:01,747  [INFO ]  Gold player starts game
+2020-11-29 13:39:01,747  [INFO ]  Gold player starts game
+2020-11-29 13:39:01,747  [INFO ]  Gold player starts game
+2020-11-29 13:39:01,747  [INFO ]  Gold player starts game
+2020-11-29 13:39:01,747  [INFO ]  Gold player starts game
+2020-11-29 13:39:01,747  [INFO ]  Gold player starts game
+2020-11-29 13:39:01,747  [INFO ]  Gold player starts game
+2020-11-29 13:39:25,285  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:39:25,285  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:39:25,285  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:39:25,285  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:39:25,285  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:39:25,285  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:39:25,285  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:39:25,285  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:39:25,285  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:39:25,285  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:39:25,285  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:39:25,285  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:39:25,285  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:39:25,285  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:39:25,285  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:39:25,285  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:39:25,285  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:39:25,285  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:39:25,285  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:39:25,285  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:39:25,285  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 13:39:25,434  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:39:25,434  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:39:25,434  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:39:25,434  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:39:25,434  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:39:25,434  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:39:25,434  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:39:25,434  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:39:25,434  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:39:25,434  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:39:25,434  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:39:25,434  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:39:25,434  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:39:25,434  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:39:25,434  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:39:25,434  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:39:25,434  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:39:25,434  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:39:25,434  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:39:25,434  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:39:25,434  [INFO ]  Player A won 1 out of 1
+2020-11-29 13:39:25,498  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:39:25,498  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:39:25,498  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:39:25,498  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:39:25,498  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:39:25,498  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:39:25,498  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:39:25,498  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:39:25,498  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:39:25,498  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:39:25,498  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:39:25,498  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:39:25,498  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:39:25,498  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:39:25,498  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:39:25,498  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:39:25,498  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:39:25,498  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:39:25,498  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:39:25,498  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:39:25,498  [INFO ]  Player B won 0 out of 1
+2020-11-29 13:39:25,554  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:39:25,554  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:39:25,554  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:39:25,554  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:39:25,554  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:39:25,554  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:39:25,554  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:39:25,554  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:39:25,554  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:39:25,554  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:39:25,554  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:39:25,554  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:39:25,554  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:39:25,554  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:39:25,554  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:39:25,554  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:39:25,554  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:39:25,554  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:39:25,554  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:39:25,554  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:39:25,554  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:50:27,272  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:50:27,272  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:50:27,272  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:50:27,272  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:50:27,272  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:50:27,272  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:50:27,272  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:50:27,272  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:50:27,272  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:50:27,272  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:50:27,272  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:50:27,272  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:50:27,272  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:50:27,272  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:50:27,272  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:50:27,272  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:50:27,272  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:50:27,272  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:50:27,272  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:50:27,272  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:50:27,272  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:50:27,272  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:50:27,353  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 112, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    mulligan.assess_starting_hand(self.players[0].hand) #player 0 is our test
+  File "/home/dareangel77/MTGMulligan-main/mulligan.py", line 35, in assess_starting_hand
+    mana_need[mana_type] += card[mana_type]
+KeyError: 'Colorless'
+2020-11-29 13:50:27,353  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 112, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    mulligan.assess_starting_hand(self.players[0].hand) #player 0 is our test
+  File "/home/dareangel77/MTGMulligan-main/mulligan.py", line 35, in assess_starting_hand
+    mana_need[mana_type] += card[mana_type]
+KeyError: 'Colorless'
+2020-11-29 13:50:27,353  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 112, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    mulligan.assess_starting_hand(self.players[0].hand) #player 0 is our test
+  File "/home/dareangel77/MTGMulligan-main/mulligan.py", line 35, in assess_starting_hand
+    mana_need[mana_type] += card[mana_type]
+KeyError: 'Colorless'
+2020-11-29 13:50:27,353  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 112, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    mulligan.assess_starting_hand(self.players[0].hand) #player 0 is our test
+  File "/home/dareangel77/MTGMulligan-main/mulligan.py", line 35, in assess_starting_hand
+    mana_need[mana_type] += card[mana_type]
+KeyError: 'Colorless'
+2020-11-29 13:50:27,353  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 112, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    mulligan.assess_starting_hand(self.players[0].hand) #player 0 is our test
+  File "/home/dareangel77/MTGMulligan-main/mulligan.py", line 35, in assess_starting_hand
+    mana_need[mana_type] += card[mana_type]
+KeyError: 'Colorless'
+2020-11-29 13:50:27,353  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 112, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    mulligan.assess_starting_hand(self.players[0].hand) #player 0 is our test
+  File "/home/dareangel77/MTGMulligan-main/mulligan.py", line 35, in assess_starting_hand
+    mana_need[mana_type] += card[mana_type]
+KeyError: 'Colorless'
+2020-11-29 13:50:27,353  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 112, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    mulligan.assess_starting_hand(self.players[0].hand) #player 0 is our test
+  File "/home/dareangel77/MTGMulligan-main/mulligan.py", line 35, in assess_starting_hand
+    mana_need[mana_type] += card[mana_type]
+KeyError: 'Colorless'
+2020-11-29 13:50:27,353  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 112, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    mulligan.assess_starting_hand(self.players[0].hand) #player 0 is our test
+  File "/home/dareangel77/MTGMulligan-main/mulligan.py", line 35, in assess_starting_hand
+    mana_need[mana_type] += card[mana_type]
+KeyError: 'Colorless'
+2020-11-29 13:50:27,353  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 112, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    mulligan.assess_starting_hand(self.players[0].hand) #player 0 is our test
+  File "/home/dareangel77/MTGMulligan-main/mulligan.py", line 35, in assess_starting_hand
+    mana_need[mana_type] += card[mana_type]
+KeyError: 'Colorless'
+2020-11-29 13:50:27,353  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 112, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    mulligan.assess_starting_hand(self.players[0].hand) #player 0 is our test
+  File "/home/dareangel77/MTGMulligan-main/mulligan.py", line 35, in assess_starting_hand
+    mana_need[mana_type] += card[mana_type]
+KeyError: 'Colorless'
+2020-11-29 13:50:27,353  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 112, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    mulligan.assess_starting_hand(self.players[0].hand) #player 0 is our test
+  File "/home/dareangel77/MTGMulligan-main/mulligan.py", line 35, in assess_starting_hand
+    mana_need[mana_type] += card[mana_type]
+KeyError: 'Colorless'
+2020-11-29 13:50:27,353  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 112, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    mulligan.assess_starting_hand(self.players[0].hand) #player 0 is our test
+  File "/home/dareangel77/MTGMulligan-main/mulligan.py", line 35, in assess_starting_hand
+    mana_need[mana_type] += card[mana_type]
+KeyError: 'Colorless'
+2020-11-29 13:50:27,353  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 112, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    mulligan.assess_starting_hand(self.players[0].hand) #player 0 is our test
+  File "/home/dareangel77/MTGMulligan-main/mulligan.py", line 35, in assess_starting_hand
+    mana_need[mana_type] += card[mana_type]
+KeyError: 'Colorless'
+2020-11-29 13:50:27,353  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 112, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    mulligan.assess_starting_hand(self.players[0].hand) #player 0 is our test
+  File "/home/dareangel77/MTGMulligan-main/mulligan.py", line 35, in assess_starting_hand
+    mana_need[mana_type] += card[mana_type]
+KeyError: 'Colorless'
+2020-11-29 13:50:27,353  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 112, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    mulligan.assess_starting_hand(self.players[0].hand) #player 0 is our test
+  File "/home/dareangel77/MTGMulligan-main/mulligan.py", line 35, in assess_starting_hand
+    mana_need[mana_type] += card[mana_type]
+KeyError: 'Colorless'
+2020-11-29 13:50:27,353  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 112, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    mulligan.assess_starting_hand(self.players[0].hand) #player 0 is our test
+  File "/home/dareangel77/MTGMulligan-main/mulligan.py", line 35, in assess_starting_hand
+    mana_need[mana_type] += card[mana_type]
+KeyError: 'Colorless'
+2020-11-29 13:50:27,353  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 112, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    mulligan.assess_starting_hand(self.players[0].hand) #player 0 is our test
+  File "/home/dareangel77/MTGMulligan-main/mulligan.py", line 35, in assess_starting_hand
+    mana_need[mana_type] += card[mana_type]
+KeyError: 'Colorless'
+2020-11-29 13:50:27,353  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 112, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    mulligan.assess_starting_hand(self.players[0].hand) #player 0 is our test
+  File "/home/dareangel77/MTGMulligan-main/mulligan.py", line 35, in assess_starting_hand
+    mana_need[mana_type] += card[mana_type]
+KeyError: 'Colorless'
+2020-11-29 13:50:27,353  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 112, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    mulligan.assess_starting_hand(self.players[0].hand) #player 0 is our test
+  File "/home/dareangel77/MTGMulligan-main/mulligan.py", line 35, in assess_starting_hand
+    mana_need[mana_type] += card[mana_type]
+KeyError: 'Colorless'
+2020-11-29 13:50:27,353  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 112, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    mulligan.assess_starting_hand(self.players[0].hand) #player 0 is our test
+  File "/home/dareangel77/MTGMulligan-main/mulligan.py", line 35, in assess_starting_hand
+    mana_need[mana_type] += card[mana_type]
+KeyError: 'Colorless'
+2020-11-29 13:50:27,353  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 112, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    mulligan.assess_starting_hand(self.players[0].hand) #player 0 is our test
+  File "/home/dareangel77/MTGMulligan-main/mulligan.py", line 35, in assess_starting_hand
+    mana_need[mana_type] += card[mana_type]
+KeyError: 'Colorless'
+2020-11-29 13:50:27,353  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 112, in <module>
+    start_games(1)
+  File "/home/dareangel77/MTGMulligan-main/main.py", line 78, in start_games
+    current_game.start_game()
+  File "/home/dareangel77/MTGMulligan-main/game.py", line 310, in start_game
+    mulligan.assess_starting_hand(self.players[0].hand) #player 0 is our test
+  File "/home/dareangel77/MTGMulligan-main/mulligan.py", line 35, in assess_starting_hand
+    mana_need[mana_type] += card[mana_type]
+KeyError: 'Colorless'
+2020-11-29 13:51:15,958  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:51:15,958  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:51:15,958  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:51:15,958  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:51:15,958  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:51:15,958  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:51:15,958  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:51:15,958  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:51:15,958  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:51:15,958  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:51:15,958  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:51:15,958  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:51:15,958  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:51:15,958  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:51:15,958  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:51:15,958  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:51:15,958  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:51:15,958  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:51:15,958  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:51:15,958  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:51:15,958  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:51:15,958  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:51:15,958  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 13:51:16,125  [INFO ]  Gold player starts game
+2020-11-29 13:51:16,125  [INFO ]  Gold player starts game
+2020-11-29 13:51:16,125  [INFO ]  Gold player starts game
+2020-11-29 13:51:16,125  [INFO ]  Gold player starts game
+2020-11-29 13:51:16,125  [INFO ]  Gold player starts game
+2020-11-29 13:51:16,125  [INFO ]  Gold player starts game
+2020-11-29 13:51:16,125  [INFO ]  Gold player starts game
+2020-11-29 13:51:16,125  [INFO ]  Gold player starts game
+2020-11-29 13:51:16,125  [INFO ]  Gold player starts game
+2020-11-29 13:51:16,125  [INFO ]  Gold player starts game
+2020-11-29 13:51:16,125  [INFO ]  Gold player starts game
+2020-11-29 13:51:16,125  [INFO ]  Gold player starts game
+2020-11-29 13:51:16,125  [INFO ]  Gold player starts game
+2020-11-29 13:51:16,125  [INFO ]  Gold player starts game
+2020-11-29 13:51:16,125  [INFO ]  Gold player starts game
+2020-11-29 13:51:16,125  [INFO ]  Gold player starts game
+2020-11-29 13:51:16,125  [INFO ]  Gold player starts game
+2020-11-29 13:51:16,125  [INFO ]  Gold player starts game
+2020-11-29 13:51:16,125  [INFO ]  Gold player starts game
+2020-11-29 13:51:16,125  [INFO ]  Gold player starts game
+2020-11-29 13:51:16,125  [INFO ]  Gold player starts game
+2020-11-29 13:51:16,125  [INFO ]  Gold player starts game
+2020-11-29 13:51:16,125  [INFO ]  Gold player starts game
+2020-11-29 13:51:32,327  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:51:32,327  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:51:32,327  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:51:32,327  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:51:32,327  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:51:32,327  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:51:32,327  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:51:32,327  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:51:32,327  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:51:32,327  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:51:32,327  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:51:32,327  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:51:32,327  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:51:32,327  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:51:32,327  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:51:32,327  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:51:32,327  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:51:32,327  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:51:32,327  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:51:32,327  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:51:32,327  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:51:32,327  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:51:32,327  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 13:51:32,456  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:51:32,456  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:51:32,456  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:51:32,456  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:51:32,456  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:51:32,456  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:51:32,456  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:51:32,456  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:51:32,456  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:51:32,456  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:51:32,456  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:51:32,456  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:51:32,456  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:51:32,456  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:51:32,456  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:51:32,456  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:51:32,456  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:51:32,456  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:51:32,456  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:51:32,456  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:51:32,456  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:51:32,456  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:51:32,456  [INFO ]  Player A won 0 out of 1
+2020-11-29 13:51:32,530  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:51:32,530  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:51:32,530  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:51:32,530  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:51:32,530  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:51:32,530  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:51:32,530  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:51:32,530  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:51:32,530  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:51:32,530  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:51:32,530  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:51:32,530  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:51:32,530  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:51:32,530  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:51:32,530  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:51:32,530  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:51:32,530  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:51:32,530  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:51:32,530  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:51:32,530  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:51:32,530  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:51:32,530  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:51:32,530  [INFO ]  Player B won 1 out of 1
+2020-11-29 13:51:32,601  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:51:32,601  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:51:32,601  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:51:32,601  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:51:32,601  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:51:32,601  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:51:32,601  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:51:32,601  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:51:32,601  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:51:32,601  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:51:32,601  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:51:32,601  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:51:32,601  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:51:32,601  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:51:32,601  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:51:32,601  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:51:32,601  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:51:32,601  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:51:32,601  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:51:32,601  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:51:32,601  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:51:32,601  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 13:51:32,601  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:04:34,730  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:04:34,730  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:04:34,730  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:04:34,730  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:04:34,730  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:04:34,730  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:04:34,730  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:04:34,730  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:04:34,730  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:04:34,730  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:04:34,730  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:04:34,730  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:04:34,730  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:04:34,730  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:04:34,730  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:04:34,730  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:04:34,730  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:04:34,730  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:04:34,730  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:04:34,730  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:04:34,730  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:04:34,730  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:04:34,730  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:04:34,730  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:04:34,844  [INFO ]  Silver player starts game
+2020-11-29 14:04:34,844  [INFO ]  Silver player starts game
+2020-11-29 14:04:34,844  [INFO ]  Silver player starts game
+2020-11-29 14:04:34,844  [INFO ]  Silver player starts game
+2020-11-29 14:04:34,844  [INFO ]  Silver player starts game
+2020-11-29 14:04:34,844  [INFO ]  Silver player starts game
+2020-11-29 14:04:34,844  [INFO ]  Silver player starts game
+2020-11-29 14:04:34,844  [INFO ]  Silver player starts game
+2020-11-29 14:04:34,844  [INFO ]  Silver player starts game
+2020-11-29 14:04:34,844  [INFO ]  Silver player starts game
+2020-11-29 14:04:34,844  [INFO ]  Silver player starts game
+2020-11-29 14:04:34,844  [INFO ]  Silver player starts game
+2020-11-29 14:04:34,844  [INFO ]  Silver player starts game
+2020-11-29 14:04:34,844  [INFO ]  Silver player starts game
+2020-11-29 14:04:34,844  [INFO ]  Silver player starts game
+2020-11-29 14:04:34,844  [INFO ]  Silver player starts game
+2020-11-29 14:04:34,844  [INFO ]  Silver player starts game
+2020-11-29 14:04:34,844  [INFO ]  Silver player starts game
+2020-11-29 14:04:34,844  [INFO ]  Silver player starts game
+2020-11-29 14:04:34,844  [INFO ]  Silver player starts game
+2020-11-29 14:04:34,844  [INFO ]  Silver player starts game
+2020-11-29 14:04:34,844  [INFO ]  Silver player starts game
+2020-11-29 14:04:34,844  [INFO ]  Silver player starts game
+2020-11-29 14:04:34,844  [INFO ]  Silver player starts game
+2020-11-29 14:05:03,981  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:05:03,981  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:05:03,981  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:05:03,981  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:05:03,981  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:05:03,981  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:05:03,981  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:05:03,981  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:05:03,981  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:05:03,981  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:05:03,981  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:05:03,981  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:05:03,981  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:05:03,981  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:05:03,981  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:05:03,981  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:05:03,981  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:05:03,981  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:05:03,981  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:05:03,981  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:05:03,981  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:05:03,981  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:05:03,981  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:05:03,981  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:05:04,055  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:05:04,055  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:05:04,055  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:05:04,055  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:05:04,055  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:05:04,055  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:05:04,055  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:05:04,055  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:05:04,055  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:05:04,055  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:05:04,055  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:05:04,055  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:05:04,055  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:05:04,055  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:05:04,055  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:05:04,055  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:05:04,055  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:05:04,055  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:05:04,055  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:05:04,055  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:05:04,055  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:05:04,055  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:05:04,055  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:05:04,055  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:05:04,123  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:05:04,123  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:05:04,123  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:05:04,123  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:05:04,123  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:05:04,123  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:05:04,123  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:05:04,123  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:05:04,123  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:05:04,123  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:05:04,123  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:05:04,123  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:05:04,123  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:05:04,123  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:05:04,123  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:05:04,123  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:05:04,123  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:05:04,123  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:05:04,123  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:05:04,123  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:05:04,123  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:05:04,123  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:05:04,123  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:05:04,123  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:05:04,213  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:05:04,213  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:05:04,213  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:05:04,213  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:05:04,213  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:05:04,213  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:05:04,213  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:05:04,213  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:05:04,213  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:05:04,213  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:05:04,213  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:05:04,213  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:05:04,213  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:05:04,213  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:05:04,213  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:05:04,213  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:05:04,213  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:05:04,213  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:05:04,213  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:05:04,213  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:05:04,213  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:05:04,213  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:05:04,213  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:05:04,213  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:35:09,806  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:35:09,806  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:35:09,806  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:35:09,806  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:35:09,806  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:35:09,806  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:35:09,806  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:35:09,806  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:35:09,806  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:35:09,806  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:35:09,806  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:35:09,806  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:35:09,806  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:35:09,806  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:35:09,806  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:35:09,806  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:35:09,806  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:35:09,806  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:35:09,806  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:35:09,806  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:35:09,806  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:35:09,806  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:35:09,806  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:35:09,806  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:35:09,806  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:35:09,945  [INFO ]  Gold player starts game
+2020-11-29 14:35:09,945  [INFO ]  Gold player starts game
+2020-11-29 14:35:09,945  [INFO ]  Gold player starts game
+2020-11-29 14:35:09,945  [INFO ]  Gold player starts game
+2020-11-29 14:35:09,945  [INFO ]  Gold player starts game
+2020-11-29 14:35:09,945  [INFO ]  Gold player starts game
+2020-11-29 14:35:09,945  [INFO ]  Gold player starts game
+2020-11-29 14:35:09,945  [INFO ]  Gold player starts game
+2020-11-29 14:35:09,945  [INFO ]  Gold player starts game
+2020-11-29 14:35:09,945  [INFO ]  Gold player starts game
+2020-11-29 14:35:09,945  [INFO ]  Gold player starts game
+2020-11-29 14:35:09,945  [INFO ]  Gold player starts game
+2020-11-29 14:35:09,945  [INFO ]  Gold player starts game
+2020-11-29 14:35:09,945  [INFO ]  Gold player starts game
+2020-11-29 14:35:09,945  [INFO ]  Gold player starts game
+2020-11-29 14:35:09,945  [INFO ]  Gold player starts game
+2020-11-29 14:35:09,945  [INFO ]  Gold player starts game
+2020-11-29 14:35:09,945  [INFO ]  Gold player starts game
+2020-11-29 14:35:09,945  [INFO ]  Gold player starts game
+2020-11-29 14:35:09,945  [INFO ]  Gold player starts game
+2020-11-29 14:35:09,945  [INFO ]  Gold player starts game
+2020-11-29 14:35:09,945  [INFO ]  Gold player starts game
+2020-11-29 14:35:09,945  [INFO ]  Gold player starts game
+2020-11-29 14:35:09,945  [INFO ]  Gold player starts game
+2020-11-29 14:35:09,945  [INFO ]  Gold player starts game
+2020-11-29 14:35:49,757  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:35:49,757  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:35:49,757  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:35:49,757  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:35:49,757  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:35:49,757  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:35:49,757  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:35:49,757  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:35:49,757  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:35:49,757  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:35:49,757  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:35:49,757  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:35:49,757  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:35:49,757  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:35:49,757  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:35:49,757  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:35:49,757  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:35:49,757  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:35:49,757  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:35:49,757  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:35:49,757  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:35:49,757  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:35:49,757  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:35:49,757  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:35:49,757  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:35:49,837  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:35:49,837  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:35:49,837  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:35:49,837  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:35:49,837  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:35:49,837  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:35:49,837  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:35:49,837  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:35:49,837  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:35:49,837  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:35:49,837  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:35:49,837  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:35:49,837  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:35:49,837  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:35:49,837  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:35:49,837  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:35:49,837  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:35:49,837  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:35:49,837  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:35:49,837  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:35:49,837  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:35:49,837  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:35:49,837  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:35:49,837  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:35:49,837  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:35:49,914  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:35:49,914  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:35:49,914  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:35:49,914  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:35:49,914  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:35:49,914  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:35:49,914  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:35:49,914  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:35:49,914  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:35:49,914  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:35:49,914  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:35:49,914  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:35:49,914  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:35:49,914  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:35:49,914  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:35:49,914  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:35:49,914  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:35:49,914  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:35:49,914  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:35:49,914  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:35:49,914  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:35:49,914  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:35:49,914  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:35:49,914  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:35:49,914  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:35:49,990  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:35:49,990  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:35:49,990  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:35:49,990  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:35:49,990  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:35:49,990  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:35:49,990  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:35:49,990  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:35:49,990  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:35:49,990  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:35:49,990  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:35:49,990  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:35:49,990  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:35:49,990  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:35:49,990  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:35:49,990  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:35:49,990  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:35:49,990  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:35:49,990  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:35:49,990  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:35:49,990  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:35:49,990  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:35:49,990  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:35:49,990  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:35:49,990  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:36:06,608  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:36:06,608  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:36:06,608  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:36:06,608  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:36:06,608  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:36:06,608  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:36:06,608  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:36:06,608  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:36:06,608  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:36:06,608  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:36:06,608  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:36:06,608  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:36:06,608  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:36:06,608  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:36:06,608  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:36:06,608  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:36:06,608  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:36:06,608  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:36:06,608  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:36:06,608  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:36:06,608  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:36:06,608  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:36:06,608  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:36:06,608  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:36:06,608  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:36:06,608  [INFO ]  Starting Open MTG. Playing 1 games
+2020-11-29 14:36:06,737  [INFO ]  Gold player starts game
+2020-11-29 14:36:06,737  [INFO ]  Gold player starts game
+2020-11-29 14:36:06,737  [INFO ]  Gold player starts game
+2020-11-29 14:36:06,737  [INFO ]  Gold player starts game
+2020-11-29 14:36:06,737  [INFO ]  Gold player starts game
+2020-11-29 14:36:06,737  [INFO ]  Gold player starts game
+2020-11-29 14:36:06,737  [INFO ]  Gold player starts game
+2020-11-29 14:36:06,737  [INFO ]  Gold player starts game
+2020-11-29 14:36:06,737  [INFO ]  Gold player starts game
+2020-11-29 14:36:06,737  [INFO ]  Gold player starts game
+2020-11-29 14:36:06,737  [INFO ]  Gold player starts game
+2020-11-29 14:36:06,737  [INFO ]  Gold player starts game
+2020-11-29 14:36:06,737  [INFO ]  Gold player starts game
+2020-11-29 14:36:06,737  [INFO ]  Gold player starts game
+2020-11-29 14:36:06,737  [INFO ]  Gold player starts game
+2020-11-29 14:36:06,737  [INFO ]  Gold player starts game
+2020-11-29 14:36:06,737  [INFO ]  Gold player starts game
+2020-11-29 14:36:06,737  [INFO ]  Gold player starts game
+2020-11-29 14:36:06,737  [INFO ]  Gold player starts game
+2020-11-29 14:36:06,737  [INFO ]  Gold player starts game
+2020-11-29 14:36:06,737  [INFO ]  Gold player starts game
+2020-11-29 14:36:06,737  [INFO ]  Gold player starts game
+2020-11-29 14:36:06,737  [INFO ]  Gold player starts game
+2020-11-29 14:36:06,737  [INFO ]  Gold player starts game
+2020-11-29 14:36:06,737  [INFO ]  Gold player starts game
+2020-11-29 14:36:06,737  [INFO ]  Gold player starts game
+2020-11-29 14:36:26,554  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:36:26,554  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:36:26,554  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:36:26,554  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:36:26,554  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:36:26,554  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:36:26,554  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:36:26,554  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:36:26,554  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:36:26,554  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:36:26,554  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:36:26,554  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:36:26,554  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:36:26,554  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:36:26,554  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:36:26,554  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:36:26,554  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:36:26,554  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:36:26,554  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:36:26,554  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:36:26,554  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:36:26,554  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:36:26,554  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:36:26,554  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:36:26,554  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:36:26,554  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 14:36:26,723  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:36:26,723  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:36:26,723  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:36:26,723  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:36:26,723  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:36:26,723  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:36:26,723  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:36:26,723  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:36:26,723  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:36:26,723  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:36:26,723  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:36:26,723  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:36:26,723  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:36:26,723  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:36:26,723  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:36:26,723  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:36:26,723  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:36:26,723  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:36:26,723  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:36:26,723  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:36:26,723  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:36:26,723  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:36:26,723  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:36:26,723  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:36:26,723  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:36:26,723  [INFO ]  Player A won 1 out of 1
+2020-11-29 14:36:26,822  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:36:26,822  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:36:26,822  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:36:26,822  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:36:26,822  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:36:26,822  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:36:26,822  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:36:26,822  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:36:26,822  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:36:26,822  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:36:26,822  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:36:26,822  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:36:26,822  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:36:26,822  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:36:26,822  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:36:26,822  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:36:26,822  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:36:26,822  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:36:26,822  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:36:26,822  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:36:26,822  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:36:26,822  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:36:26,822  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:36:26,822  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:36:26,822  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:36:26,822  [INFO ]  Player B won 0 out of 1
+2020-11-29 14:36:26,965  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:36:26,965  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:36:26,965  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:36:26,965  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:36:26,965  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:36:26,965  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:36:26,965  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:36:26,965  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:36:26,965  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:36:26,965  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:36:26,965  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:36:26,965  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:36:26,965  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:36:26,965  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:36:26,965  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:36:26,965  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:36:26,965  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:36:26,965  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:36:26,965  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:36:26,965  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:36:26,965  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:36:26,965  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:36:26,965  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:36:26,965  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:36:26,965  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 14:36:26,965  [INFO ]  Quitting Open MTG
+
 

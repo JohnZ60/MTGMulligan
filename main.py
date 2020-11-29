@@ -34,9 +34,6 @@ class cardName(object):
 """
 
 
-    
-
-
 
 def configure_logging():
     """
@@ -79,13 +76,13 @@ def start_games(amount_of_games):
         silver_deck = deck.get_8ed_core_silver_deck()
         current_game = game.Game([player.Player(gold_deck), player.Player(silver_deck)])
         current_game.start_game()
-
         if current_game.active_player.index == 0:
             logging.info("Gold player starts game")
         else:
             logging.info("Silver player starts game")
+            
         while not current_game.is_over():
-            if current_game.player_with_priority.index is 1:
+            if current_game.player_with_priority.index == 1:
                 move = current_game.player_with_priority.determine_move(method="random", game=current_game)
             else:
                 # move = game.player_with_priority.determine_move(method="random", game=game)
@@ -112,7 +109,7 @@ def start_games(amount_of_games):
 if __name__ == "__main__":
     try:
         configure_logging()
-        start_games(2)
+        start_games(1)
     except SystemExit:
         pass
     except KeyboardInterrupt:

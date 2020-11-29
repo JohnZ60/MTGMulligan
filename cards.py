@@ -8,6 +8,8 @@ class Card:
         self.deck_location_known = False
         self.owner = None
         self.is_tapped = False
+        self.value_in_hand = 0
+        self.total_mc = 0
 
     def play(self, owner, game, verbose=False):
         self.owner = owner
@@ -79,8 +81,6 @@ class Artifact(Card):
     def __repr__(self):
         return self.name
     
-    
-
     def __str__(self):
         return self.name
 
