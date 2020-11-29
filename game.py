@@ -1,3 +1,8 @@
+"""
+open-mtg MIT license granted by Hylnur Davíð Hlynsson for simulating the game (https://github.com/hlynurd/open-mtg)
+Original simulator coded by Hylnur and Erik Martinez, game.py modified by Alexander Mains
+"""
+
 import math
 import random
 import logging
@@ -68,6 +73,7 @@ class Game:
                 self.battlefield.remove(dead_creature)
                 dead_creature.owner.graveyard.append(dead_creature)
                 
+            
             if player.casting_spell == "Stone Rain":
                 destroyed_land = self.battlefield[move]
                 self.battlefield.remove(destroyed_land)

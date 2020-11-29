@@ -1,3 +1,8 @@
+"""
+open-mtg MIT license granted by Hylnur Davíð Hlynsson for simulating the game (https://github.com/hlynurd/open-mtg)
+Original simulator coded by Hylnur and Erik Martinez
+"""
+
 # -*- coding: utf-8 -*-
 #
 # Configuration file for the Sphinx documentation builder.

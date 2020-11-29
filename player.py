@@ -1,3 +1,8 @@
+"""
+open-mtg MIT license granted by Hylnur Davíð Hlynsson for simulating the game (https://github.com/hlynurd/open-mtg)
+Original simulator coded by Hylnur and Erik Martinez, player.py modified by Alexander Mains
+"""
+
 import copy
 import random
 import numpy as np

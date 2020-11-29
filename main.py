@@ -5,7 +5,14 @@ What does the program do?
     Takes a deck provided and simulates play with the starting hand to
     determine if the starting hand should be mulliganed.
 
+open-mtg MIT license granted by Hylnur Davíð Hlynsson for simulating the game (https://github.com/hlynurd/open-mtg)
+Original simulator coded by Hylnur and Erik Martinez, modified by Alexander Mains, Johnathan Tan
 
+What was added?
+Additional decks and implementation of those decks in deck.py and game.py
+Changed implementation of the original Monte Carlo Tree Search to play the game
+An additional Monte Carlo Tree Search algorithm to determine mulligans within monteCarloTreeSearch.py
+Added Artifact card type in cards.py
 
 
 @author: Alexander Mains

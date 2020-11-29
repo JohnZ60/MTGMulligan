@@ -1,5 +1,10 @@
 # Licence is granted to freely use and distribute for any sensible/legal purpose so long as this comment
 # remains in any distributed code.
+
+"""
+open-mtg MIT license granted by Hylnur Davíð Hlynsson for simulating the game (https://github.com/hlynurd/open-mtg)
+Original simulator coded by Hylnur and Erik Martinez, mcts.py modified by Alexander Mains
+"""
 import copy
 from game import *
 
