@@ -85,3 +85,7 @@ def get_RDW_deck():
         decklist.append(cards.Sorcery('Claim the Firstborn', '', {'Red': 1, 'Generic': 0}, "Gain control of target creature with converted mana cost 3 or less until end of turn. Untap that creature. It gains haste until end of turn."))
         decklist.append(cards.Land('Castle Embereth', 1, '', [lambda self: self.owner.add_mana({"Red": 1}), "Castle Embereth enters the battlefield tapped unless you control a Mountain.Tap: Add R,  1RRTAP: Creatures you control get +1/+0 until end of turn."]))
         decklist.append(cards.Land("Mountain", "Basic Land", "Mountain", [lambda self: self.owner.add_mana({"Red": 1})]))
+        
+def get_goldfish():
+    for i in range(1,60):
+        decklist.append(cards.Land("Mountain", "Basic Land", "Mountain", [lambda self: self.owner.add_mana({"Red": 1})]))

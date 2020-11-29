@@ -268,3 +268,33 @@ TypeError: __init__() missing 1 required positional argument: 'rulesText'
 2020-11-28 20:47:31,656  [INFO ]  Quitting Open MTG
 
 
+2020-11-29 02:41:31,137  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-29 02:41:31,138  [INFO ]  Silver player starts game
+2020-11-29 02:41:32,644  [INFO ]  Game 1 is over! current standings: 0 - 1
+2020-11-29 02:41:32,644  [INFO ]  Gold player starts game
+2020-11-29 02:41:35,433  [INFO ]  Game 2 is over! current standings: 0 - 2
+2020-11-29 02:41:35,433  [INFO ]  Player A won 0 out of 2
+2020-11-29 02:41:35,434  [INFO ]  Player B won 2 out of 2
+2020-11-29 02:41:35,434  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 02:41:41,981  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-29 02:41:41,981  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-29 02:41:41,983  [INFO ]  Silver player starts game
+2020-11-29 02:41:41,983  [INFO ]  Silver player starts game
+2020-11-29 02:41:44,736  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 02:41:44,736  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-29 02:41:44,738  [INFO ]  Silver player starts game
+2020-11-29 02:41:44,738  [INFO ]  Silver player starts game
+2020-11-29 02:41:46,247  [INFO ]  Game 2 is over! current standings: 2 - 0
+2020-11-29 02:41:46,247  [INFO ]  Game 2 is over! current standings: 2 - 0
+2020-11-29 02:41:46,248  [INFO ]  Player A won 2 out of 2
+2020-11-29 02:41:46,248  [INFO ]  Player A won 2 out of 2
+2020-11-29 02:41:46,249  [INFO ]  Player B won 0 out of 2
+2020-11-29 02:41:46,249  [INFO ]  Player B won 0 out of 2
+2020-11-29 02:41:46,249  [INFO ]  Quitting Open MTG
+
+
+2020-11-29 02:41:46,249  [INFO ]  Quitting Open MTG
+
+
