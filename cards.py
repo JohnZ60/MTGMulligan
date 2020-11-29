@@ -42,7 +42,7 @@ class Land(Card):
 
 
 class Sorcery(Card):
-    def __init__(self, name, subtypes, mc, rulesText):
+    def __init__(self, name, subtypes, mc, rulesText=""):
         super(Sorcery, self).__init__()
         self.name = name
         self.mc = {x: mc.get(x, 0) + self.mc.get(x, 0) for x in set(mc).union(self.mc)}
@@ -62,7 +62,7 @@ class Sorcery(Card):
         return self.name
 
 class Artifact(Card):
-    def __init__(self, name, subtypes, mc, rulesText):
+    def __init__(self, name, subtypes, mc, rulesText=""):
         super(Sorcery, self).__init__()
         self.name = name
         self.mc = {x: mc.get(x, 0) + self.mc.get(x, 0) for x in set(mc).union(self.mc)}

@@ -1,0 +1,220 @@
+2020-11-25 22:00:02,773  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-25 22:00:02,774  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "E:\AI\Project\MTGMulligan\main.py", line 115, in <module>
+    start_games(2)
+  File "E:\AI\Project\MTGMulligan\main.py", line 78, in start_games
+    gold_deck = deck.get_8ed_core_gold_deck()
+  File "E:\AI\Project\MTGMulligan\deck.py", line 27, in get_8ed_core_gold_deck
+    decklist.append(cards.Sorcery("Lava Axe", "", {'Red': 1, 'Generic': 4}))
+TypeError: __init__() missing 1 required positional argument: 'rulesText'
+2020-11-25 22:01:32,435  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-25 22:01:32,435  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-25 22:01:32,436  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "E:\AI\Project\MTGMulligan\main.py", line 115, in <module>
+    start_games(2)
+  File "E:\AI\Project\MTGMulligan\main.py", line 78, in start_games
+    gold_deck = deck.get_8ed_core_gold_deck()
+  File "E:\AI\Project\MTGMulligan\deck.py", line 27, in get_8ed_core_gold_deck
+    decklist.append(cards.Sorcery("Lava Axe", "", {'Red': 1, 'Generic': 4}))
+TypeError: __init__() missing 1 required positional argument: 'rulesText'
+2020-11-25 22:01:32,436  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "E:\AI\Project\MTGMulligan\main.py", line 115, in <module>
+    start_games(2)
+  File "E:\AI\Project\MTGMulligan\main.py", line 78, in start_games
+    gold_deck = deck.get_8ed_core_gold_deck()
+  File "E:\AI\Project\MTGMulligan\deck.py", line 27, in get_8ed_core_gold_deck
+    decklist.append(cards.Sorcery("Lava Axe", "", {'Red': 1, 'Generic': 4}))
+TypeError: __init__() missing 1 required positional argument: 'rulesText'
+2020-11-25 22:01:39,934  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-25 22:01:39,934  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-25 22:01:39,934  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-25 22:01:39,935  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "E:\AI\Project\MTGMulligan\main.py", line 115, in <module>
+    start_games(2)
+  File "E:\AI\Project\MTGMulligan\main.py", line 78, in start_games
+    gold_deck = deck.get_8ed_core_gold_deck()
+  File "E:\AI\Project\MTGMulligan\deck.py", line 27, in get_8ed_core_gold_deck
+    decklist.append(cards.Sorcery("Lava Axe", "", {'Red': 1, 'Generic': 4}))
+TypeError: __init__() missing 1 required positional argument: 'rulesText'
+2020-11-25 22:01:39,935  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "E:\AI\Project\MTGMulligan\main.py", line 115, in <module>
+    start_games(2)
+  File "E:\AI\Project\MTGMulligan\main.py", line 78, in start_games
+    gold_deck = deck.get_8ed_core_gold_deck()
+  File "E:\AI\Project\MTGMulligan\deck.py", line 27, in get_8ed_core_gold_deck
+    decklist.append(cards.Sorcery("Lava Axe", "", {'Red': 1, 'Generic': 4}))
+TypeError: __init__() missing 1 required positional argument: 'rulesText'
+2020-11-25 22:01:39,935  [ERROR]  Unexpected exception
+Traceback (most recent call last):
+  File "E:\AI\Project\MTGMulligan\main.py", line 115, in <module>
+    start_games(2)
+  File "E:\AI\Project\MTGMulligan\main.py", line 78, in start_games
+    gold_deck = deck.get_8ed_core_gold_deck()
+  File "E:\AI\Project\MTGMulligan\deck.py", line 27, in get_8ed_core_gold_deck
+    decklist.append(cards.Sorcery("Lava Axe", "", {'Red': 1, 'Generic': 4}))
+TypeError: __init__() missing 1 required positional argument: 'rulesText'
+2020-11-25 22:02:28,820  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-25 22:02:28,820  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-25 22:02:28,820  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-25 22:02:28,820  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-25 22:02:28,822  [INFO ]  Gold player starts game
+2020-11-25 22:02:28,822  [INFO ]  Gold player starts game
+2020-11-25 22:02:28,822  [INFO ]  Gold player starts game
+2020-11-25 22:02:28,822  [INFO ]  Gold player starts game
+2020-11-25 22:02:30,338  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-25 22:02:30,338  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-25 22:02:30,338  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-25 22:02:30,338  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-25 22:02:30,340  [INFO ]  Gold player starts game
+2020-11-25 22:02:30,340  [INFO ]  Gold player starts game
+2020-11-25 22:02:30,340  [INFO ]  Gold player starts game
+2020-11-25 22:02:30,340  [INFO ]  Gold player starts game
+2020-11-25 22:02:33,507  [INFO ]  Game 2 is over! current standings: 2 - 0
+2020-11-25 22:02:33,507  [INFO ]  Game 2 is over! current standings: 2 - 0
+2020-11-25 22:02:33,507  [INFO ]  Game 2 is over! current standings: 2 - 0
+2020-11-25 22:02:33,507  [INFO ]  Game 2 is over! current standings: 2 - 0
+2020-11-25 22:02:33,510  [INFO ]  Player A won 2 out of 2
+2020-11-25 22:02:33,510  [INFO ]  Player A won 2 out of 2
+2020-11-25 22:02:33,510  [INFO ]  Player A won 2 out of 2
+2020-11-25 22:02:33,510  [INFO ]  Player A won 2 out of 2
+2020-11-25 22:02:33,511  [INFO ]  Player B won 0 out of 2
+2020-11-25 22:02:33,511  [INFO ]  Player B won 0 out of 2
+2020-11-25 22:02:33,511  [INFO ]  Player B won 0 out of 2
+2020-11-25 22:02:33,511  [INFO ]  Player B won 0 out of 2
+2020-11-25 22:02:33,512  [INFO ]  Quitting Open MTG
+
+
+2020-11-25 22:02:33,512  [INFO ]  Quitting Open MTG
+
+
+2020-11-25 22:02:33,512  [INFO ]  Quitting Open MTG
+
+
+2020-11-25 22:02:33,512  [INFO ]  Quitting Open MTG
+
+
+2020-11-25 22:02:56,422  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-25 22:02:56,422  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-25 22:02:56,422  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-25 22:02:56,422  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-25 22:02:56,422  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-25 22:02:56,425  [INFO ]  Gold player starts game
+2020-11-25 22:02:56,425  [INFO ]  Gold player starts game
+2020-11-25 22:02:56,425  [INFO ]  Gold player starts game
+2020-11-25 22:02:56,425  [INFO ]  Gold player starts game
+2020-11-25 22:02:56,425  [INFO ]  Gold player starts game
+2020-11-25 22:02:59,064  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-25 22:02:59,064  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-25 22:02:59,064  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-25 22:02:59,064  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-25 22:02:59,064  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-25 22:02:59,066  [INFO ]  Silver player starts game
+2020-11-25 22:02:59,066  [INFO ]  Silver player starts game
+2020-11-25 22:02:59,066  [INFO ]  Silver player starts game
+2020-11-25 22:02:59,066  [INFO ]  Silver player starts game
+2020-11-25 22:02:59,066  [INFO ]  Silver player starts game
+2020-11-25 22:03:01,738  [INFO ]  Game 2 is over! current standings: 2 - 0
+2020-11-25 22:03:01,738  [INFO ]  Game 2 is over! current standings: 2 - 0
+2020-11-25 22:03:01,738  [INFO ]  Game 2 is over! current standings: 2 - 0
+2020-11-25 22:03:01,738  [INFO ]  Game 2 is over! current standings: 2 - 0
+2020-11-25 22:03:01,738  [INFO ]  Game 2 is over! current standings: 2 - 0
+2020-11-25 22:03:01,740  [INFO ]  Player A won 2 out of 2
+2020-11-25 22:03:01,740  [INFO ]  Player A won 2 out of 2
+2020-11-25 22:03:01,740  [INFO ]  Player A won 2 out of 2
+2020-11-25 22:03:01,740  [INFO ]  Player A won 2 out of 2
+2020-11-25 22:03:01,740  [INFO ]  Player A won 2 out of 2
+2020-11-25 22:03:01,741  [INFO ]  Player B won 0 out of 2
+2020-11-25 22:03:01,741  [INFO ]  Player B won 0 out of 2
+2020-11-25 22:03:01,741  [INFO ]  Player B won 0 out of 2
+2020-11-25 22:03:01,741  [INFO ]  Player B won 0 out of 2
+2020-11-25 22:03:01,741  [INFO ]  Player B won 0 out of 2
+2020-11-25 22:03:01,743  [INFO ]  Quitting Open MTG
+
+
+2020-11-25 22:03:01,743  [INFO ]  Quitting Open MTG
+
+
+2020-11-25 22:03:01,743  [INFO ]  Quitting Open MTG
+
+
+2020-11-25 22:03:01,743  [INFO ]  Quitting Open MTG
+
+
+2020-11-25 22:03:01,743  [INFO ]  Quitting Open MTG
+
+
+2020-11-25 22:03:04,585  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-25 22:03:04,585  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-25 22:03:04,585  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-25 22:03:04,585  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-25 22:03:04,585  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-25 22:03:04,585  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-25 22:03:04,588  [INFO ]  Silver player starts game
+2020-11-25 22:03:04,588  [INFO ]  Silver player starts game
+2020-11-25 22:03:04,588  [INFO ]  Silver player starts game
+2020-11-25 22:03:04,588  [INFO ]  Silver player starts game
+2020-11-25 22:03:04,588  [INFO ]  Silver player starts game
+2020-11-25 22:03:04,588  [INFO ]  Silver player starts game
+2020-11-25 22:03:07,937  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-25 22:03:07,937  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-25 22:03:07,937  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-25 22:03:07,937  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-25 22:03:07,937  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-25 22:03:07,937  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-25 22:03:07,940  [INFO ]  Gold player starts game
+2020-11-25 22:03:07,940  [INFO ]  Gold player starts game
+2020-11-25 22:03:07,940  [INFO ]  Gold player starts game
+2020-11-25 22:03:07,940  [INFO ]  Gold player starts game
+2020-11-25 22:03:07,940  [INFO ]  Gold player starts game
+2020-11-25 22:03:07,940  [INFO ]  Gold player starts game
+2020-11-25 22:03:11,413  [INFO ]  Game 2 is over! current standings: 1 - 1
+2020-11-25 22:03:11,413  [INFO ]  Game 2 is over! current standings: 1 - 1
+2020-11-25 22:03:11,413  [INFO ]  Game 2 is over! current standings: 1 - 1
+2020-11-25 22:03:11,413  [INFO ]  Game 2 is over! current standings: 1 - 1
+2020-11-25 22:03:11,413  [INFO ]  Game 2 is over! current standings: 1 - 1
+2020-11-25 22:03:11,413  [INFO ]  Game 2 is over! current standings: 1 - 1
+2020-11-25 22:03:11,415  [INFO ]  Player A won 1 out of 2
+2020-11-25 22:03:11,415  [INFO ]  Player A won 1 out of 2
+2020-11-25 22:03:11,415  [INFO ]  Player A won 1 out of 2
+2020-11-25 22:03:11,415  [INFO ]  Player A won 1 out of 2
+2020-11-25 22:03:11,415  [INFO ]  Player A won 1 out of 2
+2020-11-25 22:03:11,415  [INFO ]  Player A won 1 out of 2
+2020-11-25 22:03:11,417  [INFO ]  Player B won 1 out of 2
+2020-11-25 22:03:11,417  [INFO ]  Player B won 1 out of 2
+2020-11-25 22:03:11,417  [INFO ]  Player B won 1 out of 2
+2020-11-25 22:03:11,417  [INFO ]  Player B won 1 out of 2
+2020-11-25 22:03:11,417  [INFO ]  Player B won 1 out of 2
+2020-11-25 22:03:11,417  [INFO ]  Player B won 1 out of 2
+2020-11-25 22:03:11,419  [INFO ]  Quitting Open MTG
+
+
+2020-11-25 22:03:11,419  [INFO ]  Quitting Open MTG
+
+
+2020-11-25 22:03:11,419  [INFO ]  Quitting Open MTG
+
+
+2020-11-25 22:03:11,419  [INFO ]  Quitting Open MTG
+
+
+2020-11-25 22:03:11,419  [INFO ]  Quitting Open MTG
+
+
+2020-11-25 22:03:11,419  [INFO ]  Quitting Open MTG
+
+
+2020-11-28 20:19:48,155  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-28 20:19:48,156  [INFO ]  Silver player starts game
+2020-11-28 20:19:51,821  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-28 20:19:51,822  [INFO ]  Gold player starts game
+2020-11-28 20:19:55,356  [INFO ]  Game 2 is over! current standings: 1 - 1
+2020-11-28 20:19:55,356  [INFO ]  Player A won 1 out of 2
+2020-11-28 20:19:55,356  [INFO ]  Player B won 1 out of 2
+2020-11-28 20:19:55,357  [INFO ]  Quitting Open MTG
+
+
