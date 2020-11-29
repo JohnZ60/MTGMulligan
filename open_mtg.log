@@ -218,3 +218,53 @@ TypeError: __init__() missing 1 required positional argument: 'rulesText'
 2020-11-28 20:19:55,357  [INFO ]  Quitting Open MTG
 
 
+2020-11-28 20:23:15,573  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-28 20:23:15,573  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-28 20:23:15,574  [INFO ]  Gold player starts game
+2020-11-28 20:23:15,574  [INFO ]  Gold player starts game
+2020-11-28 20:23:19,246  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-28 20:23:19,246  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-28 20:23:19,247  [INFO ]  Gold player starts game
+2020-11-28 20:23:19,247  [INFO ]  Gold player starts game
+2020-11-28 20:23:21,576  [INFO ]  Game 2 is over! current standings: 1 - 1
+2020-11-28 20:23:21,576  [INFO ]  Game 2 is over! current standings: 1 - 1
+2020-11-28 20:23:21,577  [INFO ]  Player A won 1 out of 2
+2020-11-28 20:23:21,577  [INFO ]  Player A won 1 out of 2
+2020-11-28 20:23:21,578  [INFO ]  Player B won 1 out of 2
+2020-11-28 20:23:21,578  [INFO ]  Player B won 1 out of 2
+2020-11-28 20:23:21,578  [INFO ]  Quitting Open MTG
+
+
+2020-11-28 20:23:21,578  [INFO ]  Quitting Open MTG
+
+
+2020-11-28 20:47:26,317  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-28 20:47:26,317  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-28 20:47:26,317  [INFO ]  Starting Open MTG. Playing 2 games
+2020-11-28 20:47:26,318  [INFO ]  Gold player starts game
+2020-11-28 20:47:26,318  [INFO ]  Gold player starts game
+2020-11-28 20:47:26,318  [INFO ]  Gold player starts game
+2020-11-28 20:47:28,703  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-28 20:47:28,703  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-28 20:47:28,703  [INFO ]  Game 1 is over! current standings: 1 - 0
+2020-11-28 20:47:28,704  [INFO ]  Gold player starts game
+2020-11-28 20:47:28,704  [INFO ]  Gold player starts game
+2020-11-28 20:47:28,704  [INFO ]  Gold player starts game
+2020-11-28 20:47:31,653  [INFO ]  Game 2 is over! current standings: 2 - 0
+2020-11-28 20:47:31,653  [INFO ]  Game 2 is over! current standings: 2 - 0
+2020-11-28 20:47:31,653  [INFO ]  Game 2 is over! current standings: 2 - 0
+2020-11-28 20:47:31,654  [INFO ]  Player A won 2 out of 2
+2020-11-28 20:47:31,654  [INFO ]  Player A won 2 out of 2
+2020-11-28 20:47:31,654  [INFO ]  Player A won 2 out of 2
+2020-11-28 20:47:31,655  [INFO ]  Player B won 0 out of 2
+2020-11-28 20:47:31,655  [INFO ]  Player B won 0 out of 2
+2020-11-28 20:47:31,655  [INFO ]  Player B won 0 out of 2
+2020-11-28 20:47:31,656  [INFO ]  Quitting Open MTG
+
+
+2020-11-28 20:47:31,656  [INFO ]  Quitting Open MTG
+
+
+2020-11-28 20:47:31,656  [INFO ]  Quitting Open MTG
+
+
