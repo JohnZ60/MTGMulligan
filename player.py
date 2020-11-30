@@ -123,6 +123,12 @@ class Player:
             self.manapool[key] -= mana[key]
         return mana['Generic']
 
+    def draw_cards(self):#doesn't check for lose
+        if len(self.deck) == 0:
+            return False
+        for i in range(7):
+            self.hand.append(self.deck.pop())
+
     def shuffle_deck(self):
         random.shuffle(self.deck)
 
@@ -133,6 +139,18 @@ class Player:
         drawn_card = self.deck.pop()
         self.hand.append(drawn_card)
         return drawn_card
+    
+    def put_cards_back(self):
+        if len(self.hand) == 0:
+            return False
+        for i in range(len(self.hand)):
+            self.deck.append(self.hand.pop())
+    
+    def put_particular_card_back(self, card):
+        if len(self.hand) == 0:
+            return False
+        self.hand.remove(card)
+        self.deck.append(card)
 
     def play_card(self, index, game, verbose):
         assert index in self.get_playable_cards(game)

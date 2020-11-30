@@ -313,7 +313,7 @@ class Game:
             self.players[i].shuffle_deck()
             for j in range(self.starting_hand_size):
                 self.players[i].draw_card()
-        mulligan.assess_starting_hand(self.players[0].hand) #player 0 is our test 
+        mulligan.assess_starting_hand(self.players[0]) #player 0 is our test 
 
     def start_new_turn(self):
         self.current_phase_index = Phases.BEGINNING_PHASE
