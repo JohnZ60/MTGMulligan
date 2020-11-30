@@ -52,7 +52,7 @@ def configure_logging():
 
     stream_handler = logging.StreamHandler()
     stream_handler.setFormatter(logging.Formatter("[%(levelname)-5.5s]  %(message)s"))
-    file_handler = logging.FileHandler("open_mtg.log", 'a', 'utf-8')
+    file_handler = logging.FileHandler("..\open_mtg.log", 'a', 'utf-8')
     file_handler.setLevel(logging.DEBUG)
     file_handler.setFormatter(logging.Formatter("%(asctime)s  [%(levelname)-5.5s]  %(message)s"))
 
