@@ -105,18 +105,18 @@ def start_games(amount_of_games):
         elif current_game.players[0].has_lost:
             player_b_wins += 1
         games_played += 1
-    #    logging.info("Game {0} is over! current standings: "
-    #                 "{1} - {2}".format(games_played, player_a_wins, player_b_wins))
+        logging.info("Game {0} is over! current standings: "
+                     "{1} - {2}".format(games_played, player_a_wins, player_b_wins))
 
-    #logging.info("Player A won {0} out of {1}".format(player_a_wins, games_played))
-    #logging.info("Player B won {0} out of {1}".format(player_b_wins, games_played))
+    logging.info("Player A won {0} out of {1}".format(player_a_wins, games_played))
+    logging.info("Player B won {0} out of {1}".format(player_b_wins, games_played))
     #logging.info("Quitting Open MTG{0}{0}".format(os.linesep))
 
 
 if __name__ == "__main__":
     try:
         configure_logging()
-        start_games(1)
+        start_games(10)
     except SystemExit:
         pass
     except KeyboardInterrupt:
